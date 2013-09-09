@@ -41,3 +41,5 @@ app =
     receivedElement.setAttribute('style', 'display:block;')
 
     console.log('Received Event foo bar: ' + id)
+
+window.app = app
