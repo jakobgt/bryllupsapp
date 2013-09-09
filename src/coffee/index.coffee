@@ -14,11 +14,16 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+#
+
 app = 
   # Application Constructor
   initialize: () ->
+    this.setupScaffolding()
     this.bindEvents()
-  
+
+  setupScaffolding: () ->
+    window.scaffolding.setup()
   # Bind Event Listeners
   # 
   # Bind any events that are required on startup. Common events are:
@@ -33,6 +38,7 @@ app =
     app.receivedEvent('deviceready')
   # Update DOM on a Received Event
   receivedEvent: (id) ->
+    window.scaffolding.bindEvents()
     parentElement = document.getElementById(id)
     listeningElement = parentElement.querySelector('.listening')
     receivedElement = parentElement.querySelector('.received')

@@ -14,6 +14,7 @@ class Convert < Thor
   desc "coffee", "converts and puts coffeescript in www"
   def coffee
     `coffee -o #{ROOT}/www/js -c #{ROOT}/src/coffee`
+    `cp #{ROOT}/src/js/* #{ROOT}/www/js/`
   end
   
   desc "all", "Convert haml, sass and coffee"

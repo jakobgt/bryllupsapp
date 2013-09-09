@@ -25,15 +25,37 @@
     %link{rel: "stylesheet", type: "text/css", href: "css/index.css"}
   %body
     .app
-      %h1
-        Line og Jakobs bryllupsapp
-      #deviceready.blink
-        %p.event.listening
-          Connecting to Device
-        %p.event.received
-          Device is Ready. Now we roll.
-        %script{type: 'text/javascript', src: 'phonegap.js'}
-        %script{type: 'text/javascript', src: 'js/index.js'}
-        :javascript
-          window.app.initialize();
+      .page
+        %h1
+          Line og Jakobs bryllupsapp
+        #deviceready.blink
+          %p.event.listening
+            Connecting to Device
+          %p.event.received
+            Device is Ready. Now we roll.
+      .page
+        %h1
+          Praktisk information
+        %p
+          Vi skal være her.
+    %ul.navigation
+      %li
+        %a{:'data-show' => 0, href: '#'}
+          Forside
+      %li
+        %a{:'data-show' => 1, href: '#'}
+          Billeder
+      %li
+        %a{:'data-show' => 1, href: '#'}
+          Ønskeseddel          
+      %li
+        %a{:'data-show' => 1, href: '#'}
+          Praktisk info
+
+  %script{type: 'text/javascript', src: 'js/jquery-2.0.3.min.js'} 
+  %script{type: 'text/javascript', src: 'js/scaffolding.js'}     
+  %script{type: 'text/javascript', src: 'js/index.js'}      
+  %script{type: 'text/javascript', src: 'phonegap.js'}
+  :javascript
+    window.app.initialize();
     

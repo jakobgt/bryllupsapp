@@ -41,7 +41,6 @@ body {
   height:100%;
   margin:0px;
   padding:0px;
-  text-transform:uppercase;
   width:100%;
 }
 
@@ -112,4 +111,28 @@ h1 {
 .blink {
   animation:fade 3000ms infinite;
   -webkit-animation:fade 3000ms infinite;
+}
+
+.app  {
+  .page {
+    display: none;
+    &:first-child {
+      display: block;
+    }
+  }
+}
+
+ul.navigation {
+  padding: 0;
+  list-style-type: none;
+  font-size: 130%;
+  li {
+    width: 24%;
+    float: left;
+    background: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 2px;
+    text-align: center;
+  }
 }
