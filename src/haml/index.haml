@@ -2,8 +2,15 @@
   %head
     = render :header
   %body
-    = render :navigation
-    %h1
-      Line og Jakobs bryllupsapp
+    %div{:"data-role" => 'page'}
+      = render :navigation
+      %h1
+        Line og Jakobs bryllupsapp
+
+    %div{:"data-role" => 'page'}      
+      = render :navigation
+
+    %div{:"data-role" => 'page'}      
+      = render :navigation
 
     = render :javascript
