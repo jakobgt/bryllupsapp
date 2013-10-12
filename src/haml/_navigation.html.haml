@@ -1,0 +1,11 @@
+- links = [['Forside', 'index.html', 'a'], ['Billeder', 'pictures.html', 'b'],
+  ['Praktisk Info', 'info.html', 'c']  ]
+
+-# 33% grid
+.ui-grid-b
+  - links.each do |text, link, grid_class|
+    - div_class = "ui-block-#{grid_class}"
+    %div{class: div_class}
+      %a{ href: link}
+        = text
+

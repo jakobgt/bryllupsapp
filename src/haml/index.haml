@@ -1,63 +1,9 @@
 %html
   %head
-    %title
-      Line & Jakobs bryllups app.
-    %meta{charset: "utf-8"}
-    %meta{name: "format-detection", content: "telephone=no"}
-    %meta{name: "viewport", content: "user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"}
-    %link{rel: "stylesheet", type: "text/css", href: "css/index.css"}
-    %link{rel: "stylesheet", type: "text/css",
-          href: "http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css"}
+    = render :header
   %body
-    .app
-      .page
-        %h1
-          Line og Jakobs bryllupsappasda
-        #deviceready.blink
-          %p.event.listening
-            Connecting to Device
-          %p.event.received
-            Device is Ready. Now we roll.
-      .page
-        %h1
-          Praktisk information
-        %p
-          Vi skal være her.
-    %ul.navigation
-      %li
-        %a{:'data-show' => 0, href: 'pictures.html'}
-          Forside
-      %li
-        %a{:'data-show' => 1, href: '#'}
-          Billeder
-      %li
-        %a{:'data-show' => 1, href: '#'}
-          Ønskeseddel          
-      %li
-        %a{:'data-show' => 1, href: '#'}
-          Praktisk info
+    = render :navigation
+    %h1
+      Line og Jakobs bryllupsapp
 
-  %script{type: 'text/javascript', src: 'js/jquery-2.0.3.min.js'}
-  :javascript
-    var dd = $.Deferred();
-    var jqd = $.Deferred();
-    $.when(dd, jqd).done(doInit);
-    
-    $(document).bind('mobileinit', function () {
-      jqd.resolve();
-    });
-  %script{type: 'text/javascript',
-          src: 'http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.js'}
-    -#%script{type: 'text/javascript', src: 'js/scaffolding.js'}
-      %script{type: 'text/javascript', src: 'js/index.js'}
-  %script{type: 'text/javascript', src: 'phonegap.js'}
-  :javascript
-    document.addEventListener('deviceready', deviceReady, false);
-    function deviceReady() {
-      dd.resolve();
-    }
-    function doInit() {
-      alert('Ready');
-    }
-    //window.app.initialize();
-    
+    = render :javascript
