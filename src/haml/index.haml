@@ -3,14 +3,28 @@
     = render :header
   %body
     %div{:"data-role" => 'page', id: 'index'}
-      = render :navigation
-      %h1
-        Line og Jakobs bryllupsapp
+      = render :navigation do 
+        %h1
+          Line og Jakobs bryllupsapp
+      %div{:'data-role' => 'content'}
 
-    %div{:"data-role" => 'page', id: 'pictures'}      
-      = render :navigation
-
+    %div{:"data-role" => 'page', id: 'pictures', :'data-add-back-btn' => true }
+      = render :navigation do
+        %h1
+          Billeder
+      %div{:'data-role' => 'content'}
+        %ul{id: 'Gallery', class: 'gallery'}
+          - pictures = ['1', '2', '3']
+          - pictures.each do |nr|
+            %li
+              %a{href: "test-images/image_#{nr}.jpg", ref: 'external'}
+                %img{src: "test-images/image_#{nr}_thumb.jpg"}
+      
     %div{:"data-role" => 'page', id: 'info'}      
-      = render :navigation
+      = render :navigation do
+        %h1
+          Praktisk information
+      
+      %div{:'data-role' => 'content'}
 
     = render :javascript
