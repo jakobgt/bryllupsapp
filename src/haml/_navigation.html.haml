@@ -4,11 +4,12 @@
   ['Praktisk Info', '#info', 'c']  ]
 %div{:'data-role' => 'header'}
   -# 33% grid
+  %h1= heading
   .ui-grid-b.navigation
     - links.each do |text, link, grid_class|
       - div_class = ["ui-block-#{grid_class}", 'link']
       %div{class: div_class}
         %a{ href: link}
           = text
-  = heading
+
 
