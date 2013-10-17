@@ -6,6 +6,7 @@ $ ->
     return true
 
   onSuccess = (imageData) ->
+    # Here we upload the picture to somewhere....
     console.log "wuuuu"
     image = document.getElementById 'foobar'
     image.src = "data:image/jpeg;base64," + imageData
