@@ -10,6 +10,27 @@
     });
     fileURI = "res/screen/windows-phone/screen-portrait.jpg";
     win = function(r) {
+      var anchor_elm, data, img_elm, li_elm, medium_thumb_url, small_thumb_url, title;
+      data = $.parseJSON(r.response);
+      console.log("Date is: " + data);
+      small_thumb_url = "http://www.lineogjakob.dk" + data.small_thumb_url;
+      medium_thumb_url = "http://www.lineogjakob.dk" + data.medium_thumb_url;
+      title = "Fra: " + data.guest.first_name;
+      if (data.guest.last_name) {
+        title += " " + data.guest.last_name.substring(0, 1) + ".";
+      }
+      console.log("Creating elements.");
+      img_elm = document.createElement('img');
+      img_elm.src = small_thumb_url;
+      img_elm.alt = title;
+      anchor_elm = document.createElement('a');
+      anchor_elm.href = medium_thumb_url;
+      anchor_elm.ref = 'external';
+      anchor_elm.appendChild(img_elm);
+      li_elm = document.createElement('li');
+      li_elm.appendChild(anchor_elm);
+      $(li_elm).clone().hide().prependTo($('#Gallery')).slideDown();
+      console.log("Inserting the picture.");
       console.log("Code = " + r.responseCode);
       console.log("Response = " + r.response);
       return console.log("Sent = " + r.bytesSent);
@@ -20,26 +41,18 @@
     };
     onSuccess = function(image_url) {
       var ft, options, params;
-      console.log("uploading pictures");
-      console.log(image_url);
+      console.log("uploading picture: " + image_url);
       options = new FileUploadOptions();
-      console.log("Setting fileKey");
       options.fileKey = "image[image]";
-      console.log("fileKey was set.");
       options.fileName = image_url.substr(image_url.lastIndexOf('/') + 1);
       options.mimeType = "image/jpeg";
-      options.chunkedMode = false;
-      console.log("fileName was set!, ");
-      console.log(options.fileName);
       params = new Object();
       params.act_code = "vgyukm";
       params['image[name]'] = "From mobilephone";
-      console.log("Setting params");
       options.params = params;
-      console.log(options);
       ft = new FileTransfer();
       ft.upload(image_url, encodeURI("http://www.lineogjakob.dk/images.json"), win, fail, options);
-      return console.log("wuuuu it went through");
+      return console.log("Started the upload.");
     };
     onFail = function(message) {
       return console.log('Failed because: ' + message);
