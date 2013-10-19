@@ -1,0 +1,134 @@
+<html>
+  <head>
+    <title>
+      Line & Jakobs bryllups app.
+    </title>
+    <meta charset='utf-8'>
+    <meta content='telephone=no' name='format-detection'>
+    <meta content='user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi' name='viewport'>
+    <link href='css/jquery.mobile-1.0rc2.min.css' rel='stylesheet' type='text/css'>
+    <link href='css/jquery-mobile.css' rel='stylesheet' type='text/css'>
+    <link href='css/photoswipe.css' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div data-role='page' id='index'>
+      <div data-role='header'>
+        <h1>L&J bryllupsapp</h1>
+        <div class='ui-grid-b navigation'>
+          <div class='ui-block-a link'>
+            <a href='#index'>
+              Forside
+            </a>
+          </div>
+          <div class='ui-block-b link'>
+            <a href='#pictures'>
+              Billeder
+            </a>
+          </div>
+          <div class='ui-block-c link'>
+            <a href='#info'>
+              Praktisk Info
+            </a>
+          </div>
+        </div>
+      </div>
+      <div data-role='content'></div>
+    </div>
+    <div data-role='page' id='pictures'>
+      <div data-role='header'>
+        <h1>Billeder</h1>
+        <div class='ui-grid-b navigation'>
+          <div class='ui-block-a link'>
+            <a href='#index'>
+              Forside
+            </a>
+          </div>
+          <div class='ui-block-b link'>
+            <a href='#pictures'>
+              Billeder
+            </a>
+          </div>
+          <div class='ui-block-c link'>
+            <a href='#info'>
+              Praktisk Info
+            </a>
+          </div>
+        </div>
+      </div>
+      <div data-role='content'>
+        <ul class='gallery' id='Gallery'>
+          <li>
+            <a href='test-images/image_1.jpg' ref='external'>
+              <img src='test-images/image_1_thumb.jpg'>
+            </a>
+          </li>
+          <li>
+            <a href='test-images/image_2.jpg' ref='external'>
+              <img src='test-images/image_2_thumb.jpg'>
+            </a>
+          </li>
+          <li>
+            <a href='test-images/image_3.jpg' ref='external'>
+              <img src='test-images/image_3_thumb.jpg'>
+            </a>
+          </li>
+        </ul>
+        <img id='foobar'>
+        <div data-role='footer'>
+          <a href='#' id='take_picture_button'>
+            Upload nyt billedes
+          </a>
+        </div>
+      </div>
+    </div>
+    <div data-role='page' id='info'>
+      <div data-role='header'>
+        <h1>Praktisk info</h1>
+        <div class='ui-grid-b navigation'>
+          <div class='ui-block-a link'>
+            <a href='#index'>
+              Forside
+            </a>
+          </div>
+          <div class='ui-block-b link'>
+            <a href='#pictures'>
+              Billeder
+            </a>
+          </div>
+          <div class='ui-block-c link'>
+            <a href='#info'>
+              Praktisk Info
+            </a>
+          </div>
+        </div>
+      </div>
+      <div data-role='content'></div>
+    </div>
+    <script src='js/klass.min.js' type='text/javascript'></script>
+    <script src='js/jquery-1.8.3.min.js' type='text/javascript'></script>
+    <script>
+      // Has to be Javascript for DD to be defined globally
+      // Any init code here
+      doInit = function() {
+        console.log("Device Ready")
+      };
+      dd = $.Deferred();
+      jqd = $.Deferred();
+      $.when(dd, jqd).done(doInit);
+      $(document).bind('mobileinit', function() {
+        jqd.resolve()
+      });
+    </script>
+    <script src='js/jquery.mobile-1.2.1.min.js' type='text/javascript'></script>
+    <script src='js/code.photoswipe.jquery-3.0.5.min.js' type='text/javascript'></script>
+    <script src='phonegap.js' type='text/javascript'></script>
+    <script>
+      deviceReady = function() {
+        dd.resolve();
+      };
+      document.addEventListener('deviceready', deviceReady, false);
+      // window.app.initialize();
+    </script>
+    <script src='js/index.js' type='text/javascript'></script>
+  </body>
+</html>
