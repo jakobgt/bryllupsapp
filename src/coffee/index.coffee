@@ -36,15 +36,9 @@ $ ->
     console.log "Setting params"
     options.params = params    
     console.log options
+    ft = new FileTransfer()
+    ft.upload(image_url, encodeURI("http://www.lineogjakob.dk/images.json"), win, fail, options);
     console.log "wuuuu it went through"
-    if true
-      ft = new FileTransfer()
-      #ft.upload(image_url, encodeURI("http://www.lineogjakob/images"), win, fail, options);
-    else
-      console.log "Took false branch..."
-    #
-#     
-
     
   onFail = (message) ->
     console.log('Failed because: ' + message);

@@ -37,12 +37,9 @@
       console.log("Setting params");
       options.params = params;
       console.log(options);
-      console.log("wuuuu it went through");
-      if (true) {
-        return ft = new FileTransfer();
-      } else {
-        return console.log("Took false branch...");
-      }
+      ft = new FileTransfer();
+      ft.upload(image_url, encodeURI("http://www.lineogjakob.dk/images.json"), win, fail, options);
+      return console.log("wuuuu it went through");
     };
     onFail = function(message) {
       return console.log('Failed because: ' + message);
