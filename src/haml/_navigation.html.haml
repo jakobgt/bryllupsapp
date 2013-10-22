@@ -3,13 +3,17 @@
 - links = [['Forside', '#index', 'a', 'Forside.png'],
   ['Billeder', '#pictures', 'b', 'Billeder.png'],
   ['Praktisk Info', '#info', 'c', 'PraktiskInfo.png'] ]
-%div{:'data-role' => 'footer', :'data-position' => 'fixed', :"data-theme" => "c"}
+%div{:'data-role' => 'footer', :"data-id" => 'footer_id', :'data-position' => 'fixed', :"data-theme" => "c"}
   %div{:'data-role' => 'navbar'}
     -# 33% grid
     %ul{class: 'navigation'}
-      - links.each do |text, link, grid_class, img|
+      - links.each_with_index do |(text, link, grid_class, img), i|
         %li
-          %a{href: link, :"data-icon" => "ljbryl-#{grid_class}"}
+          - classes = []
+          - if heading == text
+            - classes = ['ui-btn-active', 'ui-state-persist']
+          %a{href: link, :"data-icon" => "ljbryl-#{grid_class}",
+             class: classes}
             = text
 
 
