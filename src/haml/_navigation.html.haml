@@ -1,15 +1,16 @@
 -# links = [['Forside', 'index.html', 'a'], ['Billeder', 'pictures.html', 'b'],
 -#  ['Praktisk Info', 'info.html', 'c']  ]
-- links = [['Forside', '#index', 'a'], ['Billeder', '#pictures', 'b'],
-  ['Praktisk Info', '#info', 'c']  ]
-%div{:'data-role' => 'header'}
-  -# 33% grid
-  %h1= heading
-  .ui-grid-b.navigation
-    - links.each do |text, link, grid_class|
-      - div_class = ["ui-block-#{grid_class}", 'link']
-      %div{class: div_class}
-        %a{ href: link}
-          = text
+- links = [['Forside', '#index', 'a', 'Forside.png'],
+  ['Billeder', '#pictures', 'b', 'Billeder.png'],
+  ['Praktisk Info', '#info', 'c', 'PraktiskInfo.png'] ]
+%div{:'data-role' => 'footer', :'data-position' => 'fixed', :"data-theme" => "c"}
+  %div{:'data-role' => 'navbar'}
+    -# 33% grid
+    %ul{class: 'navigation'}
+      - links.each do |text, link, grid_class, img|
+        %li
+          %a{href: link, :"data-icon" => "ljbryl-#{grid_class}"}
+            = text
+
 
 

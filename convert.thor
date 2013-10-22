@@ -19,11 +19,17 @@ class Convert < Thor
     `cp #{ROOT}/src/js/* #{ROOT}/www/js/`
   end
   
+  desc "img", "copies images"
+  def img
+    `cp #{ROOT}/src/img/* #{ROOT}/www/img/`
+  end
+
   desc "all", "Convert haml, sass and coffee"
   def all
     invoke :haml
     invoke :sass
     invoke :coffee
+    invoke :img
   end
   
   desc "watch", "Start watchr to convert haml, sass and coffee source as it is modified"

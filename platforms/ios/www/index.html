@@ -12,8 +12,8 @@
   </head>
   <body>
     <div data-role='page' id='index'>
-      <div data-role='header'>
-        <h1>L&J bryllupsapp</h1>
+      <div data-role='content'></div>
+      <div data-position='fixed' data-role='footer'>
         <div class='ui-grid-b navigation'>
           <div class='ui-block-a link'>
             <a href='#index'>
@@ -32,29 +32,8 @@
           </div>
         </div>
       </div>
-      <div data-role='content'></div>
     </div>
     <div data-role='page' id='pictures'>
-      <div data-role='header'>
-        <h1>Billeder</h1>
-        <div class='ui-grid-b navigation'>
-          <div class='ui-block-a link'>
-            <a href='#index'>
-              Forside
-            </a>
-          </div>
-          <div class='ui-block-b link'>
-            <a href='#pictures'>
-              Billeder
-            </a>
-          </div>
-          <div class='ui-block-c link'>
-            <a href='#info'>
-              Praktisk Info
-            </a>
-          </div>
-        </div>
-      </div>
       <div data-role='content'>
         <ul class='gallery' id='Gallery'>
           <li>
@@ -80,10 +59,7 @@
           </a>
         </div>
       </div>
-    </div>
-    <div data-role='page' id='info'>
-      <div data-role='header'>
-        <h1>Praktisk info</h1>
+      <div data-position='fixed' data-role='footer'>
         <div class='ui-grid-b navigation'>
           <div class='ui-block-a link'>
             <a href='#index'>
@@ -102,7 +78,28 @@
           </div>
         </div>
       </div>
+    </div>
+    <div data-role='page' id='info'>
       <div data-role='content'></div>
+      <div data-position='fixed' data-role='footer'>
+        <div class='ui-grid-b navigation'>
+          <div class='ui-block-a link'>
+            <a href='#index'>
+              Forside
+            </a>
+          </div>
+          <div class='ui-block-b link'>
+            <a href='#pictures'>
+              Billeder
+            </a>
+          </div>
+          <div class='ui-block-c link'>
+            <a href='#info'>
+              Praktisk Info
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
     <script src='js/klass.min.js' type='text/javascript'></script>
     <script src='js/jquery-1.8.3.min.js' type='text/javascript'></script>

@@ -79,18 +79,19 @@ h1 {
   }
 }
 
-.navigation {
-  padding: 0;
-  list-style-type: none;
-  font-size: 130%;
-  .link {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    a, a:visited {
-      color: #644e34;
-      text-decoration: none;
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .navigation {
+    .ui-icon {
+      background-size: 18px 18px;
+    }
+    .ui-icon-ljbryl-a {
+      background-image: url("/img/Forside.png");
+    }
+    .ui-icon-ljbryl-b {
+      background-image: url("/img/Billeder.png");
+    }
+    .ui-icon-ljbryl-c {
+      background-image: url("/img/PraktiskInfo.png");
     }
   }
 }

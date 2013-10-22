@@ -3,16 +3,17 @@
     = render :header
   %body
     %div{:"data-role" => 'page', id: 'index'}
-      = header "L&J bryllupsapp"
       %div{:'data-role' => 'content'}
+      = navigation "L&J bryllupsapp"        
         
     %div{:"data-role" => 'page', id: 'pictures' }
-      = header "Billeder"
       %div{:'data-role' => 'content'}
         = render 'pictures'
+      = navigation "Billeder"
+
 
     %div{:"data-role" => 'page', id: 'info'}      
-      = header "Praktisk info"
       %div{:'data-role' => 'content'}
+      = navigation "Praktisk info"        
 
     = render :javascript
