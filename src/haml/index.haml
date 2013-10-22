@@ -7,9 +7,16 @@
       = navigation "Forside"        
         
     %div{:"data-role" => 'page', id: 'pictures' }
-      %div{:'d'}
-        %a{href: "#", id: 'take_picture_button'}
-          Upload nyt billedes
+      %div{:'data-role' => 'header', :'data-position' => 'fixed'}
+        %div{:'data-role' => 'navbar'}
+          %ul
+            %li
+              %a{href: "#", id: 'take_picture_button'}
+                Tag billede
+            %li
+              %a{href: "#", id: 'take_picture_button'}
+                Upload billede
+
 
       %div{:'data-role' => 'content'}
         = render 'pictures'
