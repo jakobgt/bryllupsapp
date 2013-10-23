@@ -56,10 +56,10 @@
         var perc;
         if (progressEvent.lengthComputable) {
           perc = Math.floor(progressEvent.loaded / progressEvent.total * 100);
-          return liitem.innerHTML = perc + "% loaded...";
+          return liitem.innerHTML = perc + "% uploaded...";
         } else {
           if (liitem.innerHTML === "") {
-            return liitem.innerHTML = "Loading";
+            return liitem.innerHTML = "Uploading";
           } else {
             return liitem.innerHTML += ".";
           }
