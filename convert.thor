@@ -10,7 +10,7 @@ class Convert < Thor
   desc "sass", "converts and puts sass in www"
   def sass
     `sass --update #{ROOT}/src/sass:#{ROOT}/www/css`
-    `cp #{ROOT}/src/css/* #{ROOT}/www/css/`
+    `cp -r #{ROOT}/src/css/* #{ROOT}/www/css/`
   end
   
   desc "coffee", "converts and puts coffeescript in www"
