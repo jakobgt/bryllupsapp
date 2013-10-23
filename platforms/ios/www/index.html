@@ -6,34 +6,54 @@
     <meta charset='utf-8'>
     <meta content='telephone=no' name='format-detection'>
     <meta content='user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi' name='viewport'>
-    <link href='css/jquery.mobile-1.0rc2.min.css' rel='stylesheet' type='text/css'>
+    <link href='css/jquery.mobile-1.2.1.css' rel='stylesheet' type='text/css'>
     <link href='css/jquery-mobile.css' rel='stylesheet' type='text/css'>
     <link href='css/photoswipe.css' rel='stylesheet' type='text/css'>
+    <link href='css/index.css' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div data-role='page' id='index'>
       <div data-role='content'></div>
-      <div data-position='fixed' data-role='footer'>
-        <div class='ui-grid-b navigation'>
-          <div class='ui-block-a link'>
-            <a href='#index'>
-              Forside
-            </a>
-          </div>
-          <div class='ui-block-b link'>
-            <a href='#pictures'>
-              Billeder
-            </a>
-          </div>
-          <div class='ui-block-c link'>
-            <a href='#info'>
-              Praktisk Info
-            </a>
-          </div>
+      <div data-id='footer_id' data-position='fixed' data-role='footer' data-theme='c'>
+        <div data-role='navbar'>
+          <ul class='navigation'>
+            <li>
+              <a class='ui-btn-active ui-state-persist' data-icon='ljbryl-a' href='#index'>
+                Forside
+              </a>
+            </li>
+            <li>
+              <a data-icon='ljbryl-b' href='#pictures'>
+                Billeder
+              </a>
+            </li>
+            <li>
+              <a data-icon='ljbryl-c' href='#info'>
+                Praktisk Info
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
     <div data-role='page' id='pictures'>
+      <div data-position='fixed' data-role='header' data-theme='c'>
+        <div class='picture_buttons' data-iconpos='left' data-role='navbar'>
+          <ul>
+            <li>
+              <a data-icon='custom' href='#' id='take_picture_button'>
+                Tag billede
+              </a>
+            </li>
+            <li>
+              <a data-icon='custom' href='#' id='upload_picture_button'>
+                Upload billede
+              </a>
+            </li>
+          </ul>
+        </div>
+        <ul class='status_bar'></ul>
+      </div>
       <div data-role='content'>
         <ul class='gallery' id='Gallery'>
           <li>
@@ -53,51 +73,50 @@
           </li>
         </ul>
         <img id='foobar'>
-        <div data-role='footer'>
-          <a href='#' id='take_picture_button'>
-            Upload nyt billedes
-          </a>
-        </div>
       </div>
-      <div data-position='fixed' data-role='footer'>
-        <div class='ui-grid-b navigation'>
-          <div class='ui-block-a link'>
-            <a href='#index'>
-              Forside
-            </a>
-          </div>
-          <div class='ui-block-b link'>
-            <a href='#pictures'>
-              Billeder
-            </a>
-          </div>
-          <div class='ui-block-c link'>
-            <a href='#info'>
-              Praktisk Info
-            </a>
-          </div>
+      <div data-id='footer_id' data-position='fixed' data-role='footer' data-theme='c'>
+        <div data-role='navbar'>
+          <ul class='navigation'>
+            <li>
+              <a data-icon='ljbryl-a' href='#index'>
+                Forside
+              </a>
+            </li>
+            <li>
+              <a class='ui-btn-active ui-state-persist' data-icon='ljbryl-b' href='#pictures'>
+                Billeder
+              </a>
+            </li>
+            <li>
+              <a data-icon='ljbryl-c' href='#info'>
+                Praktisk Info
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
     <div data-role='page' id='info'>
       <div data-role='content'></div>
-      <div data-position='fixed' data-role='footer'>
-        <div class='ui-grid-b navigation'>
-          <div class='ui-block-a link'>
-            <a href='#index'>
-              Forside
-            </a>
-          </div>
-          <div class='ui-block-b link'>
-            <a href='#pictures'>
-              Billeder
-            </a>
-          </div>
-          <div class='ui-block-c link'>
-            <a href='#info'>
-              Praktisk Info
-            </a>
-          </div>
+      <div data-id='footer_id' data-position='fixed' data-role='footer' data-theme='c'>
+        <div data-role='navbar'>
+          <ul class='navigation'>
+            <li>
+              <a data-icon='ljbryl-a' href='#index'>
+                Forside
+              </a>
+            </li>
+            <li>
+              <a data-icon='ljbryl-b' href='#pictures'>
+                Billeder
+              </a>
+            </li>
+            <li>
+              <a class='ui-btn-active ui-state-persist' data-icon='ljbryl-c' href='#info'>
+                Praktisk Info
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

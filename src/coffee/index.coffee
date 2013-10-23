@@ -5,7 +5,6 @@ $ ->
     myPhotoSwipe = $("#Gallery a").photoSwipe {}
     return true
 
-  fileURI = "res/screen/windows-phone/screen-portrait.jpg"
   win = (r) ->
     data = $.parseJSON(r.response)
     console.log "Date is: " + data
@@ -35,7 +34,7 @@ $ ->
     console.log("upload error source " + error.source)
     console.log("upload error target " + error.target)
 
-  onSuccess = (image_url) ->
+  upload_picture = (image_url) ->
     # Here we upload the picture to somewhere....
     console.log "uploading picture: " + image_url
     options = new FileUploadOptions()
@@ -46,20 +45,49 @@ $ ->
     params.act_code = "vgyukm";
     params['image[name]'] = "From mobilephone";
     options.params = params    
+    liitem = document.createElement('li')
+    $('.status_bar').append(liitem)
     ft = new FileTransfer()
-    ft.upload(image_url, encodeURI("http://www.lineogjakob.dk/images.json"), win, fail, options);
+    ft.onprogress = (progressEvent) ->
+      if (progressEvent.lengthComputable)
+        perc = Math.floor(progressEvent.loaded / progressEvent.total * 100)
+        liitem.innerHTML = perc + "% uploaded..."
+      else
+        if (liitem.innerHTML == "")
+          liitem.innerHTML = "Uploading"
+        else
+          liitem.innerHTML += "."
+    ft.upload(image_url, encodeURI("http://www.lineogjakob.dk/images.json"), ((r) ->
+      $(liitem).remove()
+      win(r)), ((r) ->
+        $(liitem).remove()
+        fail(r)), options)
     console.log "Started the upload."
     
   onFail = (message) ->
     console.log('Failed because: ' + message);
 
   takePicture = () ->
-    navigator.camera.getPicture(onSuccess, onFail, {
+    navigator.camera.getPicture upload_picture, onFail, 
       quality: 50
+      targetWidth: 1600
+      targetHeight: 1600
+      destinationType: Camera.DestinationType.FILE_URI
+      sourceType: navigator.camera.PictureSourceType.CAMERA
+      saveToPhotoAlbum: true
+      correctOrientation: true
+      
+  uploadPictureFromLibrary = () ->
+    navigator.camera.getPicture upload_picture, onFail, 
+      quality: 50
+      targetWidth: 1600
+      targetHeight: 1600
       destinationType: Camera.DestinationType.FILE_URI
       sourceType: navigator.camera.PictureSourceType.PHOTOLIBRARY
-    })
     
   $('#take_picture_button').click () ->
     console.log "Taking picture."
     takePicture()
+  $('#upload_picture_button').click () ->
+    console.log "Uploading picture."
+    uploadPictureFromLibrary()

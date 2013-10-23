@@ -20,25 +20,30 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   /* make transparent link selection, adjust last value opacity 0 to 1.0 */ }
 
-body {
+body, .ui-mobile-viewport {
   -webkit-touch-callout: none;
   /* prevent callout to copy image, etc when tap to hold */
   -webkit-text-size-adjust: none;
   /* prevent webkit from resizing text to fit */
   -webkit-user-select: none;
   /* prevent copy paste, to allow, change 'none' to 'text' */
-  background-color: #E4E4E4;
-  background-image: linear-gradient(top, #a7a7a7 0%, #e4e4e4 51%);
-  background-image: -webkit-linear-gradient(top, #a7a7a7 0%, #e4e4e4 51%);
-  background-image: -ms-linear-gradient(top, #a7a7a7 0%, #e4e4e4 51%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #a7a7a7), color-stop(0.51, #e4e4e4));
-  background-attachment: fixed;
+  background-image: url("Baggrund.jpg");
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: 100% 100%;
   font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
   font-size: 12px;
   height: 100%;
   margin: 0px;
   padding: 0px;
   width: 100%; }
+
+.ui-page {
+  background: transparent; }
+
+.ui-content {
+  background: transparent; }
 
 h1 {
   font-size: 24px;
@@ -77,15 +82,38 @@ h1 {
   .app .page:first-child {
     display: block; }
 
-.navigation {
-  padding: 0;
+.navigation .ui-icon {
+  background-size: 18px 18px; }
+.navigation .ui-icon-ljbryl-a {
+  background-image: url("Forside.png"); }
+.navigation .ui-icon-ljbryl-b {
+  background-image: url("Billeder.png"); }
+.navigation .ui-icon-ljbryl-c {
+  background-image: url("PraktiskInfo.png"); }
+
+.picture_buttons .ui-btn .ui-btn-inner {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important; }
+.picture_buttons .ui-btn .ui-icon {
+  width: 30px !important;
+  height: 30px !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important; }
+
+#take_picture_button .ui-icon {
+  margin-top: -12px;
+  background: url("Upload-nyt-billede.png") 50% 50% no-repeat;
+  background-size: 30px 30px; }
+
+#upload_picture_button .ui-icon {
+  margin-top: -15px;
+  background: url("Tag-billede.png") 50% 50% no-repeat;
+  background-size: 30px 19px; }
+
+/** Status bar for upload. **/
+.status_bar {
   list-style-type: none;
-  font-size: 130%; }
-  .navigation .link {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center; }
-    .navigation .link a, .navigation .link a:visited {
-      color: #644e34;
-      text-decoration: none; }
+  margin: 0px; }

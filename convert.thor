@@ -21,7 +21,7 @@ class Convert < Thor
   
   desc "img", "copies images"
   def img
-    `cp #{ROOT}/src/img/* #{ROOT}/www/img/`
+    `cp #{ROOT}/src/img/* #{ROOT}/www/css/`
   end
 
   desc "all", "Convert haml, sass and coffee"

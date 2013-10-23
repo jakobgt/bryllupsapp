@@ -24,7 +24,7 @@ body, .ui-mobile-viewport {
   -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
   -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
   -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-  background-image:url('/img/Baggrund.jpg');
+  background-image:url('Baggrund.jpg');
   background-repeat:repeat-y;
   background-position:center center;
   background-attachment:scroll;
@@ -79,19 +79,48 @@ h1 {
   }
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  .navigation {
-    .ui-icon {
-      background-size: 18px 18px;
-    }
-    .ui-icon-ljbryl-a {
-      background-image: url("/img/Forside.png");
-    }
-    .ui-icon-ljbryl-b {
-      background-image: url("/img/Billeder.png");
-    }
-    .ui-icon-ljbryl-c {
-      background-image: url("/img/PraktiskInfo.png");
-    }
+.navigation {
+  .ui-icon {
+    background-size: 18px 18px;
   }
+  .ui-icon-ljbryl-a {
+    background-image: url("Forside.png");
+  }
+  .ui-icon-ljbryl-b {
+    background-image: url("Billeder.png");
+  }
+  .ui-icon-ljbryl-c {
+    background-image: url("PraktiskInfo.png");
+  }
+}
+.picture_buttons {
+  .ui-btn .ui-btn-inner { 
+    padding-top: 10px !important; 
+    padding-bottom: 10px !important; 
+  }
+  .ui-btn .ui-icon { 
+    width: 30px!important; 
+    height: 30px!important; 
+    box-shadow: none!important; 
+    -moz-box-shadow: none!important; 
+    -webkit-box-shadow: none!important; 
+    -webkit-border-radius: 0 !important; 
+    border-radius: 0 !important; 
+  }
+}
+#take_picture_button .ui-icon {
+  margin-top: -12px;
+  background: url("Upload-nyt-billede.png") 50% 50% no-repeat;
+  background-size: 30px 30px;
+}
+#upload_picture_button .ui-icon {
+  margin-top: -15px;
+  background: url("Tag-billede.png") 50% 50% no-repeat;
+  background-size: 30px 19px;
+}
+
+/** Status bar for upload. **/
+.status_bar {
+  list-style-type: none;
+  margin: 0px;
 }
