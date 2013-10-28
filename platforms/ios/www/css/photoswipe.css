@@ -53,7 +53,7 @@ div.ps-zoom-pan-rotate *  { display: block; }
 /* Carousel */
 div.ps-carousel-item-loading 
 { 
-	background: url(loader.gif) no-repeat center center; 
+	background: url(ajax-loader.gif) no-repeat center center; 
 }
 
 div.ps-carousel-item-error 

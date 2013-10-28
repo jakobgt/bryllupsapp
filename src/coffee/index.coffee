@@ -2,11 +2,10 @@ $ ->
   # Should only load on startup, not pageshow...
   $('#pictures').live 'pageshow', () ->
     console.log("Setting up gallery")
-    myPhotoSwipe = $("#Gallery a").photoSwipe {}
+#    myPhotoSwipe = $("#Gallery a").photoSwipe {}
     return true
 
-  win = (r) ->
-    data = $.parseJSON(r.response)
+  insert_picture = (data) ->
     console.log "Date is: " + data
     small_thumb_url = "http://www.lineogjakob.dk" + data.small_thumb_url
     medium_thumb_url = "http://www.lineogjakob.dk" + data.medium_thumb_url    
@@ -26,9 +25,12 @@ $ ->
     $(li_elm).clone().hide().prependTo($('#Gallery')).slideDown();
     console.log "Inserting the picture."
     
-    console.log("Code = " + r.responseCode)
-    console.log("Response = " + r.response)
-    console.log("Sent = " + r.bytesSent)
+
+  win = (response) ->
+#    insert_picture($.parseJSON(response.response))
+    console.log("Code = " + response.responseCode)
+    console.log("Response = " + response.response)
+    console.log("Sent = " + response.bytesSent)
 
   fail = (error) ->
     console.log("upload error source " + error.source)
@@ -91,3 +93,16 @@ $ ->
   $('#upload_picture_button').click () ->
     console.log "Uploading picture."
     uploadPictureFromLibrary()
+
+  f = $('#pictures_iframe')
+  f[0].src = 'http://www.lineogjakob.dk/images.mobile'
+
+  # # Pusher interaction
+  # Pusher.log = (message) ->
+  #   if (window.console && window.console.log)
+  #     window.console.log message
+
+  # pusher = new Pusher('542416e0dcbaf6b1fb39');
+  # channel = pusher.subscribe('pictures')
+  # channel.bind 'new_picture', (data) ->
+  #   insert_picture $.parseJSON(data.message)

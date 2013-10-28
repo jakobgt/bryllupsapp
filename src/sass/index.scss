@@ -124,3 +124,13 @@ h1 {
   list-style-type: none;
   margin: 0px;
 }
+
+.pictures_frame {
+  width: 100%;
+  height: calc(100% - (60px + 36px));
+  border: none;
+}
+
+#pictures .ui-content {
+  padding: 0px;
+}

@@ -1,8 +1,10 @@
-%ul{id: 'Gallery', class: 'gallery'}
-  - pictures = ['1', '2', '3']
-  - pictures.each do |nr|
-    %li
-      %a{href: "test-images/image_#{nr}.jpg", ref: 'external'}
-        %img{src: "test-images/image_#{nr}_thumb.jpg"}
+%iframe.pictures_frame{id: 'pictures_iframe'}
 
-%img{id: 'foobar'}          
+-# %ul{id: 'Gallery', class: 'gallery'}
+-#   - pictures = ['1', '2', '3']
+-#   - pictures.each do |nr|
+-#     %li
+-#       %a{href: "test-images/image_#{nr}.jpg", ref: 'external'}
+-#         %img{src: "test-images/image_#{nr}_thumb.jpg"}
+
+-# %img{id: 'foobar'}          
