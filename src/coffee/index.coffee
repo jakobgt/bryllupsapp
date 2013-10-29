@@ -95,7 +95,23 @@ $ ->
     uploadPictureFromLibrary()
 
   f = $('#pictures_iframe')
-  f[0].src = 'http://www.lineogjakob.dk/images.mobile'
+  f[0].src = 'http://localhost:3000/images.mobile'
+#  f[0].src = 'http://www.lineogjakob.dk/images.mobile'  
+
+  $(() ->
+    if (/iPhone|iPod|iPad/.test(navigator.userAgent))
+      $('iframe').wrap(() ->
+        $this = $(this);
+        return $('<div />').css({
+          width: $this.attr('width'),
+          height: $this.attr('height'),
+          overflow: 'auto',
+          '-webkit-overflow-scrolling': 'touch'
+        })
+      )
+    )
+  
+
 
   # # Pusher interaction
   # Pusher.log = (message) ->

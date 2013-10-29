@@ -121,6 +121,7 @@ h1 {
 .pictures_frame {
   width: 100%;
   height: 100%;
+  /* calc(100% - (60px + 36px)); */
   border: none; }
 
 #pictures .ui-content {
