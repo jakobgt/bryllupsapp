@@ -1,10 +1,27 @@
 $ ->
-  # Should only load on startup, not pageshow...
-  $('#pictures').live 'pageshow', () ->
+  createGallery = () ->
     console.log("Setting up gallery")
-#    myPhotoSwipe = $("#Gallery a").photoSwipe {}
-    return true
+    window.gallery = $("#Gallery a").photoSwipe({
+      enableKeyboard: false,
+      enableMouseWheel: false
+      })
+  removeGalleryIfPresent = () ->
+    if (typeof window.gallery != "undefined" && window.gallery != null)
+      console.log 'Removing gallery'
+      window.Code.PhotoSwipe.unsetActivateInstance window.gallery
+      window.Code.PhotoSwipe.detatch window.gallery
+      window.gallery = undefined
 
+  insert_pictures = (data, textStatus, jqXHR) ->
+    removeGalleryIfPresent()
+    for picture in data.reverse()[0..20].reverse()
+      insert_picture picture
+    createGallery()
+
+  window.deviceReady = () ->
+    console.log "Loading pictures."
+    $.get 'http://www.lineogjakob.dk/images.json', insert_pictures
+  
   insert_picture = (data) ->
     console.log "Date is: " + data
     small_thumb_url = "http://www.lineogjakob.dk" + data.small_thumb_url
@@ -93,32 +110,18 @@ $ ->
   $('#upload_picture_button').click () ->
     console.log "Uploading picture."
     uploadPictureFromLibrary()
+  # Pusher interaction
+  Pusher.log = (message) ->
+    if (window.console && window.console.log)
+      window.console.log message
 
-  f = $('#pictures_iframe')
-  f[0].src = 'http://localhost:3000/images.mobile'
-#  f[0].src = 'http://www.lineogjakob.dk/images.mobile'  
+  pusher = new Pusher('542416e0dcbaf6b1fb39');
+  channel = pusher.subscribe('pictures')
+  channel.bind 'new_picture', (data) ->
+    removeGalleryIfPresent()
+    insert_picture $.parseJSON(data.message)
+    createGallery()
 
-  $(() ->
-    if (/iPhone|iPod|iPad/.test(navigator.userAgent))
-      $('iframe').wrap(() ->
-        $this = $(this);
-        return $('<div />').css({
-          width: $this.attr('width'),
-          height: $this.attr('height'),
-          overflow: 'auto',
-          '-webkit-overflow-scrolling': 'touch'
-        })
-      )
-    )
-  
+    
+document.addEventListener('deviceready', window.deviceReady, false);
 
-
-  # # Pusher interaction
-  # Pusher.log = (message) ->
-  #   if (window.console && window.console.log)
-  #     window.console.log message
-
-  # pusher = new Pusher('542416e0dcbaf6b1fb39');
-  # channel = pusher.subscribe('pictures')
-  # channel.bind 'new_picture', (data) ->
-  #   insert_picture $.parseJSON(data.message)
