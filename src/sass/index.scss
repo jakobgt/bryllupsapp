@@ -109,14 +109,14 @@ h1 {
   }
 }
 #take_picture_button .ui-icon {
-  margin-top: -12px;
-  background: url("Upload-nyt-billede.png") 50% 50% no-repeat;
-  background-size: 30px 30px;
-}
-#upload_picture_button .ui-icon {
   margin-top: -15px;
   background: url("Tag-billede.png") 50% 50% no-repeat;
   background-size: 30px 19px;
+}
+#upload_picture_button .ui-icon {
+  margin-top: -12px;
+  background: url("Upload-nyt-billede.png") 50% 50% no-repeat;
+  background-size: 30px 30px;
 }
 
 /** Status bar for upload. **/
@@ -133,4 +133,14 @@ h1 {
 
 #pictures .ui-content {
   padding: 0px;
+}
+
+#picture_loading {
+  margin-bottom: 30px;
+}
+
+#picture_end {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: none;
 }

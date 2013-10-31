@@ -1,4 +1,7 @@
 $ ->
+  window.pictures_data = []
+  window.current_start_index = 0
+  # TODO(jakob): Use localstorage as a first measure?
   createGallery = () ->
     console.log("Setting up gallery")
     window.gallery = $("#Gallery a").photoSwipe({
@@ -10,19 +13,40 @@ $ ->
       console.log 'Removing gallery'
       window.Code.PhotoSwipe.unsetActivateInstance window.gallery
       window.Code.PhotoSwipe.detatch window.gallery
-      window.gallery = undefined
+      window.gallery = null
 
   insert_pictures = (data, textStatus, jqXHR) ->
-    removeGalleryIfPresent()
-    for picture in data.reverse()[0..20].reverse()
-      insert_picture picture
-    createGallery()
+    # Window.pictures_data is the list of pictures, where the latest
+    # is last.
+    window.pictures_data = data
+    window.current_start_index = data.length - 1
+    showMorePictures()
 
+  showMorePictures = () ->
+    if window.current_start_index > 0
+      removeGalleryIfPresent()
+      end = window.current_start_index
+      start = Math.max 0, end - 10
+      window.current_start_index = start      
+      for picture in window.pictures_data[start..end]
+        append_picture picture
+      createGallery()
+      if start == 0
+        $('#picture_loading').hide()        
+        $('#picture_end').show()
+      
   window.deviceReady = () ->
     console.log "Loading pictures."
     $.get 'http://www.lineogjakob.dk/images.json', insert_pictures
-  
-  insert_picture = (data) ->
+
+  prepend_picture = (picture) ->
+    li_elm = generate_html_elm picture
+    $(li_elm).clone().hide().prependTo($('#Gallery')).slideDown();
+  append_picture = (picture) ->
+    li_elm = generate_html_elm picture
+    $(li_elm).clone().hide().appendTo($('#Gallery')).slideDown();
+
+  generate_html_elm = (data) ->
     console.log "Date is: " + data
     small_thumb_url = "http://www.lineogjakob.dk" + data.small_thumb_url
     medium_thumb_url = "http://www.lineogjakob.dk" + data.medium_thumb_url    
@@ -39,12 +63,11 @@ $ ->
     anchor_elm.appendChild(img_elm)
     li_elm = document.createElement('li')
     li_elm.appendChild(anchor_elm)
-    $(li_elm).clone().hide().prependTo($('#Gallery')).slideDown();
-    console.log "Inserting the picture."
+    console.log "Returning the picture."
+    return li_elm
     
 
   win = (response) ->
-#    insert_picture($.parseJSON(response.response))
     console.log("Code = " + response.responseCode)
     console.log("Response = " + response.response)
     console.log("Sent = " + response.bytesSent)
@@ -86,23 +109,27 @@ $ ->
   onFail = (message) ->
     console.log('Failed because: ' + message);
 
+  remove_clicked_color = () ->
+    $('.picture_buttons a').removeClass 'ui-btn-active'
   takePicture = () ->
     navigator.camera.getPicture upload_picture, onFail, 
-      quality: 50
+      quality: 75
       targetWidth: 1600
       targetHeight: 1600
       destinationType: Camera.DestinationType.FILE_URI
       sourceType: navigator.camera.PictureSourceType.CAMERA
       saveToPhotoAlbum: true
       correctOrientation: true
-      
+    remove_clicked_color()
+            
   uploadPictureFromLibrary = () ->
     navigator.camera.getPicture upload_picture, onFail, 
-      quality: 50
+      quality: 75
       targetWidth: 1600
       targetHeight: 1600
       destinationType: Camera.DestinationType.FILE_URI
       sourceType: navigator.camera.PictureSourceType.PHOTOLIBRARY
+    remove_clicked_color()
     
   $('#take_picture_button').click () ->
     console.log "Taking picture."
@@ -119,9 +146,19 @@ $ ->
   channel = pusher.subscribe('pictures')
   channel.bind 'new_picture', (data) ->
     removeGalleryIfPresent()
-    insert_picture $.parseJSON(data.message)
+    prepend_picture $.parseJSON(data.message)
+    window.pictures_data.push data
     createGallery()
 
+  infiniteScrolling = () ->
+    if $.mobile.activePage.attr("id") != "pictures"
+      return
+    if (!($(window).scrollTop() is 0) && $(window).scrollTop() >= $(document).height() - $(window).height())
+      console.log "Scrolling and showing more pictures..."
+      showMorePictures()
+      # CreateGallery removes my scrolling, so I need to add it again.. :-(
+      $(window).scroll(infiniteScrolling)
+  $(window).scroll(infiniteScrolling)
     
 document.addEventListener('deviceready', window.deviceReady, false);
 
