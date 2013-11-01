@@ -45,7 +45,7 @@
     checkLoginInfo = function(success) {
       var act_code;
       act_code = window.localStorage.getItem('act_code');
-      if (false && act_code) {
+      if (act_code) {
         return success(act_code);
       } else {
         return window.showActCodeForm(success);

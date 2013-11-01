@@ -40,7 +40,7 @@ $ ->
   # number.
   checkLoginInfo = (success) ->
     act_code = window.localStorage.getItem('act_code')
-    if false && act_code
+    if act_code
       success(act_code)
     else
       window.showActCodeForm(success)
