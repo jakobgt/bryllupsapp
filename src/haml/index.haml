@@ -29,4 +29,9 @@
       %div{:'data-role' => 'content'}
       = navigation "Praktisk Info" 
 
+    %div{:"data-role" => 'page', id: 'act_code_form'}
+      %div{:'data-role' => 'content'}
+        = render 'act_code_form'
+      = navigation "Billeder" 
+
     = render :javascript

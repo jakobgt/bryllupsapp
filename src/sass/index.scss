@@ -144,3 +144,19 @@ h1 {
   margin-bottom: 20px;
   display: none;
 }
+
+$brown-text: #644e34;
+$blue-color: #7fa0ab;
+$step-width: 310px;
+$accepted-green: lighten(green, 65%);
+$warning-yellow: lighten(yellow, 20%);
+$error-red: lighten(red, 40%);
+.green {
+    background-color: $accepted-green;
+}
+.yellow {
+    background-color: $warning-yellow;
+}
+.blue {
+    background-color: $blue-color;
+}

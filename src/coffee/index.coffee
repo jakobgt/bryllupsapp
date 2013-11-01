@@ -26,18 +26,30 @@ $ ->
     if window.current_start_index > 0
       removeGalleryIfPresent()
       end = window.current_start_index
-      start = Math.max 0, end - 10
+      start = Math.max 0, end - 15
       window.current_start_index = start      
-      for picture in window.pictures_data[start..end]
+      for index in [end..start]
+        picture = window.pictures_data[index]
         append_picture picture
       createGallery()
       if start == 0
         $('#picture_loading').hide()        
         $('#picture_end').show()
-      
+
+  # This function checks that the person has entered an attendance
+  # number.
+  checkLoginInfo = (success) ->
+    act_code = window.localStorage.getItem('act_code')
+    if false && act_code
+      success(act_code)
+    else
+      window.showActCodeForm(success)
+    
   window.deviceReady = () ->
-    console.log "Loading pictures."
-    $.get 'http://www.lineogjakob.dk/images.json', insert_pictures
+    checkLoginInfo (act_code) ->
+      console.log "Loading pictures."
+      url = 'http://www.lineogjakob.dk/images.json?act_code=' + act_code
+      $.get url, insert_pictures
 
   prepend_picture = (picture) ->
     li_elm = generate_html_elm picture
@@ -53,6 +65,7 @@ $ ->
     title = "Fra: " + data.guest.first_name
     if (data.guest.last_name)
       title += " " + data.guest.last_name.substring(0,1) + "."
+    title += " (" + data.id + ")"
     console.log "Creating elements."
     img_elm = document.createElement('img')
     img_elm.src = small_thumb_url

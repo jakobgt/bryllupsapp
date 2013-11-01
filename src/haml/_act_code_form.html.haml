@@ -1,0 +1,26 @@
+%h3
+  Indtast venligst tilmeldingskode
+
+%p
+  Inden du kan se og uploade billeder, bedes du indtaste din
+  tilmeldingskode nedenunder. Har du ikke din tilmeldingskode ved dig,
+  kan du indtaste dit telefonnummer nedenunder og få tilmeldingskoden
+  tilsendt.
+
+%div{'data-role' => 'fieldcontain' }
+  %label.ui-hide-label{for: 'invitation[act_code]'}
+    Tilmeldingskode
+  %input{type: 'text', name: 'invitation[act_code]', id: 'invitation_act_code',
+         placeholder: 'Tilmeldingskode'}
+  %button{value: 'Brug denne kode', id: 'use_this_code_button'}
+%hr
+  
+%div{'data-role' => 'fieldcontain' }
+  %label.ui-hide-label{for: 'send_activation_code[phone_number]'}
+    Telefonnummer
+  %input{type: 'tel', name: 'send_activation_code[phone_number]',
+         id: 'send_activation_code_phone_number',
+         placeholder: 'Telefonnummer'}
+  %button{value: 'Send tilmeldingskode', id: 'send_act_code'}
+  
+    
