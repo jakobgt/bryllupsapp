@@ -8,6 +8,8 @@ $ ->
       enableKeyboard: false,
       enableMouseWheel: false
       })
+    $(window).scroll(infiniteScrolling)
+    
   removeGalleryIfPresent = () ->
     if (typeof window.gallery != "undefined" && window.gallery != null)
       console.log 'Removing gallery'
@@ -46,10 +48,12 @@ $ ->
       window.showActCodeForm(success)
     
   window.deviceReady = () ->
-    checkLoginInfo (act_code) ->
+    window.load_pictures_fun = (act_code) ->
       console.log "Loading pictures."
       url = 'http://www.lineogjakob.dk/images.json?act_code=' + act_code
       $.get url, insert_pictures
+      
+    checkLoginInfo window.load_pictures_fun
 
   prepend_picture = (picture) ->
     li_elm = generate_html_elm picture
@@ -171,7 +175,6 @@ $ ->
       showMorePictures()
       # CreateGallery removes my scrolling, so I need to add it again.. :-(
       $(window).scroll(infiniteScrolling)
-  $(window).scroll(infiniteScrolling)
     
 document.addEventListener('deviceready', window.deviceReady, false);
 

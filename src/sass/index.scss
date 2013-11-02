@@ -160,3 +160,10 @@ $error-red: lighten(red, 40%);
 .blue {
     background-color: $blue-color;
 }
+
+.number_not_found {
+  display: none;
+}
+.number_found_sms_sent {
+  display: none;
+}

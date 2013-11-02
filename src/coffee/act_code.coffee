@@ -1,6 +1,9 @@
 $ ->
-  success_callback = () ->
-    2 + 2
+  # Calling by default the one set by index.coffee
+  success_callback = (act_code) ->
+    if window.load_pictures_fun
+      window.load_pictures_fun(act_code)
+      
   window.showActCodeForm = (success) ->
     $.mobile.changePage $("#act_code_form")
     success_callback = success
@@ -40,19 +43,28 @@ $ ->
   #################################
   # Setting up phonenumber request
   $(document).on 'pageinit', '#act_code_form', () ->
+    # Elements used.
     phonenumber_input = $('#send_activation_code_phone_number')
+    number_not_found_msg = $('.number_not_found')
+    number_found_msg = $('.number_found_sms_sent')
+    
     recognizedPhoneNumber = (data, textStatus, jgXHR) ->
       phonenumber_input.addClass('green')
+      number_found_msg.show()
       
     notRecognizedPhoneNr = () ->
       phonenumber_input.addClass('yellow')
+      number_not_found_msg.show()      
       2 + 2
+      
     # Setting up sending phonenumber
     current_request = null
     phonenumber_input.bind 'keyup', () ->
       phonenumber_input.removeClass('green yellow')
     $('#send_act_code').click () ->
       phonenumber_input.removeClass('green yellow')
+      number_not_found_msg.hide()
+      number_found_msg.hide()
       phonenumber = phonenumber_input.val()
       if current_request
         current_request.abort()
