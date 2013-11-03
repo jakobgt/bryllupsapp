@@ -8,7 +8,8 @@
       = navigation "Forside"        
         
     %div{:"data-role" => 'page', id: 'pictures'}
-      %div{:'data-role' => 'header', :'data-position' => 'fixed', :"data-theme" => "c"}
+      %div{:'data-role' => 'header', :'data-position' => 'fixed', :"data-theme" => "c",
+           id: 'pictures-toolbar'}
         %div{:'data-role' => 'navbar', class: 'picture_buttons',
              :'data-iconpos' => 'left'}
           %ul
@@ -28,7 +29,7 @@
 
     %div{:"data-role" => 'page', id: 'info'}      
       %div{:'data-role' => 'content'}
-        = render 'corners'        
+        = render 'info'        
       = navigation "Praktisk Info" 
 
     %div{:"data-role" => 'page', id: 'act_code_form'}

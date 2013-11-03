@@ -177,7 +177,7 @@ a.external_link.ui-link {
   display: none;
 }
 
-#index > div {
+#index > div, #info > div {
   text-align: center;
 }
 
@@ -220,4 +220,8 @@ a.external_link.ui-link {
   img {
     width: 75px;
   }
+}
+
+#picture_loading img {
+  width: 33px;
 }

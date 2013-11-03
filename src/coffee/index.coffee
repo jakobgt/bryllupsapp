@@ -41,8 +41,13 @@ $ ->
     window.localStorage.getItem('act_code')
     
   window.deviceReady = () ->
+    console.log "Version is " + window.device.version
+    if (window.device.version.substring(0,1) is '7')
+      $('#pictures').css('margin-top', '20px');
+      $('#pictures-toolbar').css('margin-top', '20px');
     window.load_pictures_fun = (act_code) ->
       console.log "Loading pictures."
+      $('.activation_code_msg').hide()
       url = 'http://www.lineogjakob.dk/images.json?act_code=' + act_code
       $.get url, insert_pictures
     # If act code is available, then we start downloading
@@ -61,10 +66,10 @@ $ ->
     console.log "Date is: " + data
     small_thumb_url = "http://www.lineogjakob.dk" + data.small_thumb_url
     medium_thumb_url = "http://www.lineogjakob.dk" + data.medium_thumb_url    
-    title = "Fra: " + data.guest.first_name
+    title = "Taget af " + data.guest.first_name
     if (data.guest.last_name)
       title += " " + data.guest.last_name.substring(0,1) + "."
-    title += " (" + data.id + ")"
+#    title += " (" + data.id + ")"
     console.log "Creating elements."
     img_elm = document.createElement('img')
     img_elm.src = small_thumb_url
@@ -96,7 +101,7 @@ $ ->
     options.fileName = image_url.substr(image_url.lastIndexOf('/')+1)
     options.mimeType = "image/jpeg"
     params = new Object();
-    params.act_code = "vgyukm";
+    params.act_code =  window.get_act_code()
     params['image[name]'] = "From mobilephone";
     options.params = params    
     liitem = document.createElement('li')
@@ -165,11 +170,13 @@ $ ->
   infiniteScrolling = () ->
     if $.mobile.activePage.attr("id") != "pictures"
       return
-    if (!($(window).scrollTop() is 0) && $(window).scrollTop() >= $(document).height() - $(window).height())
+    # On IOS 7, the scrolling needs a bit of love to work, in that scrolltop should have 20 added.
+    if (!($(window).scrollTop() is 0) && $(window).scrollTop() + 20 >= $(document).height() - $(window).height())
       console.log "Scrolling and showing more pictures..."
       showMorePictures()
       # CreateGallery removes my scrolling, so I need to add it again.. :-(
-      $(window).scroll(infiniteScrolling)
+      # Is now done in createGallery
+      # $(window).scroll(infiniteScrolling)
     
 document.addEventListener('deviceready', window.deviceReady, false);
 

@@ -15,9 +15,23 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-               BuildableName = "LJBryl.app"
+               BuildableName = "L&amp;J.app"
                BlueprintName = "LJBryl"
                ReferencedContainer = "container:LJBryl.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
+               BuildableName = "LogJ.app"
+               BlueprintName = "LogJ"
+               ReferencedContainer = "container:LogJ.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,7 +47,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "LJBryl.app"
+            BuildableName = "L&amp;J.app"
             BlueprintName = "LJBryl"
             ReferencedContainer = "container:LJBryl.xcodeproj">
          </BuildableReference>
@@ -52,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "LJBryl.app"
+            BuildableName = "L&amp;J.app"
             BlueprintName = "LJBryl"
             ReferencedContainer = "container:LJBryl.xcodeproj">
          </BuildableReference>
@@ -70,7 +84,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "LJBryl.app"
+            BuildableName = "L&amp;J.app"
             BlueprintName = "LJBryl"
             ReferencedContainer = "container:LJBryl.xcodeproj">
          </BuildableReference>

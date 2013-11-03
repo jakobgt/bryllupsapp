@@ -1,0 +1,1046 @@
+TLJBryl
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Info.plist /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/LJBryl-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/L&J.app/ResourceRules.plist
+cPhaseScriptExecution Copy\ www\ directory /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Script-304B58A110DAC018002A0835.sh
+cCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon-72.png LJBryl/Resources/icons/icon-72.png
+cCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon.png LJBryl/Resources/icons/icon.png
+cCpResource LJBryl/config.xml build/device/L&J.app/config.xml
+cCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon@2x.png LJBryl/Resources/icons/icon@2x.png
+cCopyStringsFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/en.lproj/Localizable.strings LJBryl/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/es.lproj/Localizable.strings LJBryl/Resources/es.lproj/Localizable.strings
+cCompileXIB /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.xib
+cCopyStringsFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/de.lproj/Localizable.strings LJBryl/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/se.lproj/Localizable.strings LJBryl/Resources/se.lproj/Localizable.strings
+cCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape@2x~ipad.png LJBryl/Resources/splash/Default-Landscape@2x~ipad.png
+cCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape~ipad.png LJBryl/Resources/splash/Default-Landscape~ipad.png
+cCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait@2x~ipad.png LJBryl/Resources/splash/Default-Portrait@2x~ipad.png
+cCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait~ipad.png LJBryl/Resources/splash/Default-Portrait~ipad.png
+cCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default@2x~iphone.png LJBryl/Resources/splash/Default@2x~iphone.png
+cCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default~iphone.png LJBryl/Resources/splash/Default~iphone.png
+cCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-568h@2x~iphone.png LJBryl/Resources/splash/Default-568h@2x~iphone.png
+cCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon-72@2x.png LJBryl/Resources/icons/icon-72@2x.png
+cProcessPCH /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/LJBryl-Prefix-gpiluntwqrmljibbaxrxvgjptsmp/LJBryl-Prefix.pch.pch LJBryl/LJBryl-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/main.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/AppDelegate.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/MainViewController.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFile.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file/CDVFile.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVDevice.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.device/CDVDevice.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVCamera.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVCamera.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVJpegHeaderWriter.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVJpegHeaderWriter.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVLogger.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.console/CDVLogger.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFileTransfer.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file-transfer/CDVFileTransfer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVInAppBrowser.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/L&J normal armv7
+cGenerateDSYMFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app.dSYM /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/L&J
+cProcessProductPackaging /Volumes/Data/jakobthomsen/Library/MobileDevice/Provisioning\ Profiles/94951BA5-7F06-4FB6-BA85-DFE5CEC8ABCE.mobileprovision /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/embedded.mobileprovision
+cTouch /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J.xcent
+cCodeSign /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c0000000052762B9E0000000000000110
+t1383476126
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+c0000000052570D6A0000000000000094
+t1381436778
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+c0000000052570D6A0000000000000096
+t1381436778
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c0000000052570D6A000000000000036B
+t1381436778
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052762B2200000000000001A0
+t1383476002
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000052762B220000000000075BB0
+t1383476002
+s482224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000052762B2300000000004D63C0
+t1383476003
+s5071808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000052762B230000000000146100
+t1383476003
+s1335552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c0000000052762B250000000000835840
+t1383476005
+s8607808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000052762B250000000000210C80
+t1383476005
+s2165888
+
+N/Volumes/Data/jakobthomsen/Library/MobileDevice/Provisioning Profiles/94951BA5-7F06-4FB6-BA85-DFE5CEC8ABCE.mobileprovision
+c0000000052767CAD0000000000001D48
+t1383496877
+s7496
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/AppDelegate.m
+c000000005262D3E500000000000013A3
+t1382208485
+s5027
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.m
+c000000005262D3E50000000000001267
+t1382208485
+s4711
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.xib
+c000000005262D3E40000000000001759
+t1382208484
+s5977
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/LJBryl-Info.plist
+c000000005276C0AF0000000000000745
+t1383514287
+s1861
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/LJBryl-Prefix.pch
+c000000005262D3E500000000000003BD
+t1382208485
+s957
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVCamera.m
+c000000005262E1B000000000000079DF
+t1382212016
+s31199
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVJpegHeaderWriter.m
+c000000005262E1B0000000000000672A
+t1382212016
+s26410
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.console/CDVLogger.m
+c000000005262E77A0000000000000490
+t1382213498
+s1168
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.device/CDVDevice.m
+c000000005262E1390000000000000C22
+t1382211897
+s3106
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file-transfer/CDVFileTransfer.m
+c000000005262F4E00000000000007D79
+t1382216928
+s32121
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file/CDVFile.m
+c000000005262F4CB000000000000FA52
+t1382216907
+s64082
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m
+c000000005276532C0000000000008942
+t1383486252
+s35138
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/de.lproj/Localizable.strings
+c000000005262D3E400000000000004BF
+t1382208484
+s1215
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/en.lproj/Localizable.strings
+c000000005262D3E400000000000004AA
+t1382208484
+s1194
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/es.lproj/Localizable.strings
+c000000005262D3E400000000000004B7
+t1382208484
+s1207
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/icons/icon-72.png
+c0000000052769C790000000000008D66
+t1383505017
+s36198
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/icons/icon-72@2x.png
+c0000000052769C790000000000008D66
+t1383505017
+s36198
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/icons/icon.png
+c0000000052769C790000000000008D66
+t1383505017
+s36198
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/icons/icon@2x.png
+c0000000052769C790000000000008D66
+t1383505017
+s36198
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/se.lproj/Localizable.strings
+c000000005262D3E400000000000004AB
+t1382208484
+s1195
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-568h@2x~iphone.png
+c00000000526588D400000000000714C7
+t1382385876
+s464071
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000526588D400000000000714C7
+t1382385876
+s464071
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Landscape~ipad.png
+c00000000526588D400000000000714C7
+t1382385876
+s464071
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000526588D400000000000714C7
+t1382385876
+s464071
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Portrait~ipad.png
+c00000000526588D400000000000714C7
+t1382385876
+s464071
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default@2x~iphone.png
+c00000000526588D400000000000714C7
+t1382385876
+s464071
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default~iphone.png
+c00000000526588D400000000000714C7
+t1382385876
+s464071
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/config.xml
+c000000005276C0B50000000000000AF4
+t1383514293
+s2804
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/main.m
+c000000005262D3E50000000000000458
+t1382208485
+s1112
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J.xcent
+t1383514301
+s418
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/AppDelegate.o
+t1383514300
+s78028
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVCamera.o
+t1383514301
+s158096
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVDevice.o
+t1383514300
+s53524
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFile.o
+t1383514301
+s194340
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFileTransfer.o
+t1383514301
+s167816
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVInAppBrowser.o
+t1383514301
+s204788
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVJpegHeaderWriter.o
+t1383514301
+s67380
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVLogger.o
+t1383514301
+s44164
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/L&J.LinkFileList
+c000000005276C0BA00000000000005B0
+t1383514298
+s1456
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/MainViewController.o
+t1383514300
+s53276
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/main.o
+t1383514300
+s3124
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Script-304B58A110DAC018002A0835.sh
+c000000005276C0BA000000000000002D
+t1383514298
+s45
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app
+t1383514301
+s578
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app.dSYM
+t2
+s0
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default@2x~iphone.png
+t2
+s0
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default~iphone.png
+t2
+s0
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Info.plist
+t1383514298
+s1344
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/L&J
+t1383514301
+s568656
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/MainViewController.nib
+t1383514300
+s1332
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/PkgInfo
+t2
+s0
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/ResourceRules.plist
+t1383514298
+s150
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/config.xml
+t1383514299
+s2804
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/de.lproj/Localizable.strings
+t1383514299
+s280
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/embedded.mobileprovision
+t1383514301
+s7496
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/en.lproj/Localizable.strings
+t1383514299
+s166
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/es.lproj/Localizable.strings
+t1383514299
+s334
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon-72.png
+t1383514299
+s28371
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon-72@2x.png
+t1383514299
+s28371
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon.png
+t1383514299
+s28371
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon@2x.png
+t1383514299
+s28371
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/se.lproj/Localizable.strings
+t1383514299
+s283
+
+N/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/libCordova.a
+c000000005276C0BA00000000000E3CB0
+t1383514298
+s933040
+
+N/var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/LJBryl-Prefix-gpiluntwqrmljibbaxrxvgjptsmp/LJBryl-Prefix.pch.pch
+t1383485158
+s5280052
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies384dcb3af826b841^5986cc3af826b841^---0#1#1#--18"Check dependencies36"C653548B-6F88-4C44-B86F-8D7F5888D63E-
+
+CCodeSign /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app
+s405207101.642411
+e405207102.011273
+r1
+xCodeSign
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"CodeSign build/device/L&J.app29"CodeSign build/device/L&J.appfa9ba43df826b841^ef00033ef826b841^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/0000000000000000^1208"CodeSign build/device/L&J.app    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    Using code signing identity "iPhone Developer: Jakob Thomsen (3QX8D4282N)" and provisioning profile "iOS Team Provisioning Profile: *" (94951BA5-7F06-4FB6-BA85-DFE5CEC8ABCE)    codesign --force --sign 5BA79F22D636B20B79D4FE393401314DF799E5E0 --resource-rules=/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/ResourceRules.plist --entitlements /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J.xcent /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app36"8F7B296E-B5FC-4CE7-8740-94B783B11D1C-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/AppDelegate.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405207100.771163
+e405207100.935326
+r1
+xCompileC
+xbuild/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/AppDelegate.o
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/AppDelegate.m
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/AppDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/AppDelegate.m188"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/AppDelegate.o LJBryl/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerb892c53cf826b841^6edcee3cf826b841^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/AppDelegate.m0000000000000000^3844"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/AppDelegate.o LJBryl/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-generated-files.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-own-target-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-all-target-headers.hmap -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-project-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/usr/local/lib/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources/armv7 -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources -F/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -include /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/LJBryl-Prefix-gpiluntwqrmljibbaxrxvgjptsmp/LJBryl-Prefix.pch -MMD -MT dependencies -MF /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/AppDelegate.dia -c /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/AppDelegate.m -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/AppDelegate.o36"89C56D0E-2EE6-4196-8449-779F16A67E82-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVCamera.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVCamera.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405207100.905646
+e405207101.254830
+r1
+xCompileC
+xbuild/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVCamera.o
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVCamera.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVCamera.m
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVCamera.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVJpegHeaderWriter.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVCamera.m210"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVCamera.o LJBryl/Plugins/org.apache.cordova.camera/CDVCamera.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler6005e83cf826b841^3a3b413df826b841^---0#0#1#-19%DVTDocumentLocation2@131"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVCamera.m0000000000000000^3884"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVCamera.o LJBryl/Plugins/org.apache.cordova.camera/CDVCamera.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-generated-files.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-own-target-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-all-target-headers.hmap -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-project-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/usr/local/lib/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources/armv7 -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources -F/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -include /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/LJBryl-Prefix-gpiluntwqrmljibbaxrxvgjptsmp/LJBryl-Prefix.pch -MMD -MT dependencies -MF /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVCamera.d --serialize-diagnostics /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVCamera.dia -c /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVCamera.m -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVCamera.o36"76B9D549-0DD7-4CD3-A83E-E718B9EBE290-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVDevice.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.device/CDVDevice.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405207100.816447
+e405207100.958466
+r1
+xCompileC
+xbuild/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVDevice.o
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.device/CDVDevice.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.device/CDVDevice.m
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDV.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVDebug.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVTimer.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVJSON.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.device/CDVDevice.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.device/CDVDevice.m210"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVDevice.o LJBryl/Plugins/org.apache.cordova.device/CDVDevice.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc72ad13cf826b841^9c6af53cf826b841^---0#0#1#-19%DVTDocumentLocation2@131"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.device/CDVDevice.m0000000000000000^3884"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVDevice.o LJBryl/Plugins/org.apache.cordova.device/CDVDevice.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-generated-files.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-own-target-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-all-target-headers.hmap -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-project-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/usr/local/lib/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources/armv7 -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources -F/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -include /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/LJBryl-Prefix-gpiluntwqrmljibbaxrxvgjptsmp/LJBryl-Prefix.pch -MMD -MT dependencies -MF /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVDevice.d --serialize-diagnostics /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVDevice.dia -c /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.device/CDVDevice.m -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVDevice.o36"1F71FFAC-6501-40DF-A878-8ADD057319D6-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFile.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file/CDVFile.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405207100.771833
+e405207101.313311
+r1
+xCompileC
+xbuild/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFile.o
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file/CDVFile.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file/CDVFile.m
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file/CDVFile.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDV.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVDebug.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVTimer.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file/CDVFile.m204"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFile.o LJBryl/Plugins/org.apache.cordova.file/CDVFile.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler56bcc53cf826b841^7237503df826b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file/CDVFile.m0000000000000000^3868"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFile.o LJBryl/Plugins/org.apache.cordova.file/CDVFile.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-generated-files.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-own-target-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-all-target-headers.hmap -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-project-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/usr/local/lib/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources/armv7 -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources -F/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -include /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/LJBryl-Prefix-gpiluntwqrmljibbaxrxvgjptsmp/LJBryl-Prefix.pch -MMD -MT dependencies -MF /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFile.d --serialize-diagnostics /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFile.dia -c /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file/CDVFile.m -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFile.o36"CC40B376-FBC2-4458-8AD7-F306070356F4-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFileTransfer.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file-transfer/CDVFileTransfer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405207101.055073
+e405207101.326946
+r1
+xCompileC
+xbuild/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFileTransfer.o
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file-transfer/CDVFileTransfer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file-transfer/CDVFileTransfer.m
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDV.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVDebug.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVTimer.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVJSON.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file-transfer/CDVFileTransfer.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file/CDVFile.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file-transfer/CDVFileTransfer.m229"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFileTransfer.o LJBryl/Plugins/org.apache.cordova.file-transfer/CDVFileTransfer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerba6a0e3df826b841^2db4533df826b841^---0#0#1#-19%DVTDocumentLocation2@144"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file-transfer/CDVFileTransfer.m0000000000000000^3934"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFileTransfer.o LJBryl/Plugins/org.apache.cordova.file-transfer/CDVFileTransfer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-generated-files.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-own-target-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-all-target-headers.hmap -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-project-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/usr/local/lib/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources/armv7 -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources -F/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -include /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/LJBryl-Prefix-gpiluntwqrmljibbaxrxvgjptsmp/LJBryl-Prefix.pch -MMD -MT dependencies -MF /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFileTransfer.d --serialize-diagnostics /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFileTransfer.dia -c /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.file-transfer/CDVFileTransfer.m -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFileTransfer.o36"C4CE0E32-4D71-4A59-A53B-FEBBFB1CCC80-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVInAppBrowser.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405207101.089234
+e405207101.382759
+r1
+xCompileC
+xbuild/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVInAppBrowser.o
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m228"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVInAppBrowser.o LJBryl/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc11a173df826b841^22fe613df826b841^---0#0#1#-19%DVTDocumentLocation2@143"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m0000000000000000^3932"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVInAppBrowser.o LJBryl/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-generated-files.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-own-target-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-all-target-headers.hmap -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-project-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/usr/local/lib/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources/armv7 -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources -F/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -include /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/LJBryl-Prefix-gpiluntwqrmljibbaxrxvgjptsmp/LJBryl-Prefix.pch -MMD -MT dependencies -MF /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVInAppBrowser.d --serialize-diagnostics /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVInAppBrowser.dia -c /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVInAppBrowser.o36"16910DBE-E44D-42C8-91AB-575672297C18-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVJpegHeaderWriter.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVJpegHeaderWriter.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405207100.938046
+e405207101.087491
+r1
+xCompileC
+xbuild/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVJpegHeaderWriter.o
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVJpegHeaderWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVJpegHeaderWriter.m
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVJpegHeaderWriter.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVExif.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVJpegHeaderWriter.m230"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVJpegHeaderWriter.o LJBryl/Plugins/org.apache.cordova.camera/CDVJpegHeaderWriter.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerfd49f03cf826b841^9068163df826b841^---0#0#1#-19%DVTDocumentLocation2@141"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVJpegHeaderWriter.m0000000000000000^3944"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVJpegHeaderWriter.o LJBryl/Plugins/org.apache.cordova.camera/CDVJpegHeaderWriter.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-generated-files.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-own-target-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-all-target-headers.hmap -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-project-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/usr/local/lib/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources/armv7 -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources -F/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -include /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/LJBryl-Prefix-gpiluntwqrmljibbaxrxvgjptsmp/LJBryl-Prefix.pch -MMD -MT dependencies -MF /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVJpegHeaderWriter.d --serialize-diagnostics /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVJpegHeaderWriter.dia -c /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.camera/CDVJpegHeaderWriter.m -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVJpegHeaderWriter.o36"6D7D7C82-D8A9-490A-A7BC-3094B3365364-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVLogger.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.console/CDVLogger.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405207100.960468
+e405207101.053641
+r1
+xCompileC
+xbuild/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVLogger.o
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.console/CDVLogger.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.console/CDVLogger.m
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.console/CDVLogger.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDV.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVDebug.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVTimer.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.console/CDVLogger.m211"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVLogger.o LJBryl/Plugins/org.apache.cordova.console/CDVLogger.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler2d07f63cf826b841^dcbc0d3df826b841^---0#0#1#-19%DVTDocumentLocation2@132"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.console/CDVLogger.m0000000000000000^3886"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVLogger.o LJBryl/Plugins/org.apache.cordova.console/CDVLogger.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-generated-files.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-own-target-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-all-target-headers.hmap -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-project-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/usr/local/lib/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources/armv7 -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources -F/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -include /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/LJBryl-Prefix-gpiluntwqrmljibbaxrxvgjptsmp/LJBryl-Prefix.pch -MMD -MT dependencies -MF /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVLogger.d --serialize-diagnostics /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVLogger.dia -c /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Plugins/org.apache.cordova.console/CDVLogger.m -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVLogger.o36"9E97FCD3-822A-4AE8-9594-5E0A8F4609F6-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/MainViewController.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405207100.771261
+e405207100.903922
+r1
+xCompileC
+xbuild/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/MainViewController.o
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.m
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.m202"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/MainViewController.o LJBryl/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerdba5c53cf826b841^7cbaee3cf826b841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.m0000000000000000^3886"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/MainViewController.o LJBryl/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-generated-files.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-own-target-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-all-target-headers.hmap -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-project-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/usr/local/lib/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources/armv7 -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources -F/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -include /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/LJBryl-Prefix-gpiluntwqrmljibbaxrxvgjptsmp/LJBryl-Prefix.pch -MMD -MT dependencies -MF /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/MainViewController.dia -c /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.m -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/MainViewController.o36"3EBBD0FA-9079-4EB9-8611-EBFA7F5FF0E7-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/main.o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405207100.771150
+e405207100.813628
+r1
+xCompileC
+xbuild/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/main.o
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/main.m166"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/main.o LJBryl/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler889dc53cf826b841^494cd03cf826b841^---0#0#1#-19%DVTDocumentLocation2@92"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/main.m0000000000000000^3786"CompileC build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/main.o LJBryl/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-generated-files.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-own-target-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-all-target-headers.hmap -iquote /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-project-headers.hmap -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/usr/local/lib/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources/armv7 -I/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources -F/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -include /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/LJBryl-Prefix-gpiluntwqrmljibbaxrxvgjptsmp/LJBryl-Prefix.pch -MMD -MT dependencies -MF /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/main.d --serialize-diagnostics /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/main.dia -c /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/main.m -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/main.o36"0F275ECA-7BEC-4D64-9C99-FB7551DB4BC6-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCompileXIB /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.xib
+s405207099.583909
+e405207100.760903
+r1
+xCompileXIB
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compiling /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.xib48"CompileXIB LJBryl/Classes/MainViewController.xib7097953bf826b841^8fe4c23cf826b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.xib0000000000000000^974"CompileXIB LJBryl/Classes/MainViewController.xib    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/MainViewController.nib /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Classes/MainViewController.xib36"47410C2A-BD52-47B4-B748-E7B340CF7107-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-568h@2x~iphone.png LJBryl/Resources/splash/Default-568h@2x~iphone.png
+s405207099.786579
+e405207099.835221
+r1
+xCopyPNGFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-568h@2x~iphone.png
+xLJBryl/Resources/splash/Default-568h@2x~iphone.png
+o
+oWhile reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-568h@2x~iphone.png pngcrush caught libpng error:
+o   Not a PNG file..
+o
+oCould not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile build/device/L&J.app/Default-568h@2x~iphone.png LJBryl/Resources/splash/Default-568h@2x~iphone.png110"CopyPNGFile build/device/L&J.app/Default-568h@2x~iphone.png LJBryl/Resources/splash/Default-568h@2x~iphone.png8e75c93bf826b841^e0f5d53bf826b841^-491"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-568h@2x~iphone.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-568h@2x~iphone.pngCommand /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure3(21%IDEActivityLogMessage2@157"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-568h@2x~iphone.png pngcrush caught libpng error:-405207099#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@131"Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-568h@2x~iphone.png-405207099#18446744073709551615#0#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@178"Command /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure-405207099#18446744073709551615#0#-2#--17"CopyPNGFile Error--0#0#1#-19%DVTDocumentLocation4@129"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-568h@2x~iphone.png0000000000000000^904"CopyPNGFile build/device/L&J.app/Default-568h@2x~iphone.png LJBryl/Resources/splash/Default-568h@2x~iphone.png    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-568h@2x~iphone.png /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-568h@2x~iphone.png36"670F517C-3482-4455-9C31-01DA9A8663C2-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape@2x~ipad.png LJBryl/Resources/splash/Default-Landscape@2x~ipad.png
+s405207099.680742
+e405207099.733780
+r1
+xCopyPNGFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape@2x~ipad.png
+xLJBryl/Resources/splash/Default-Landscape@2x~ipad.png
+o
+oWhile reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Landscape@2x~ipad.png pngcrush caught libpng error:
+o   Not a PNG file..
+o
+oCould not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"CopyPNGFile build/device/L&J.app/Default-Landscape@2x~ipad.png LJBryl/Resources/splash/Default-Landscape@2x~ipad.png116"CopyPNGFile build/device/L&J.app/Default-Landscape@2x~ipad.png LJBryl/Resources/splash/Default-Landscape@2x~ipad.pngf359ae3bf826b841^1f14bc3bf826b841^-497"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Landscape@2x~ipad.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape@2x~ipad.pngCommand /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure3(21%IDEActivityLogMessage2@160"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Landscape@2x~ipad.png pngcrush caught libpng error:-405207099#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@134"Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape@2x~ipad.png-405207099#18446744073709551615#0#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@178"Command /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure-405207099#18446744073709551615#0#-2#--17"CopyPNGFile Error--0#0#1#-19%DVTDocumentLocation4@132"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Landscape@2x~ipad.png0000000000000000^916"CopyPNGFile build/device/L&J.app/Default-Landscape@2x~ipad.png LJBryl/Resources/splash/Default-Landscape@2x~ipad.png    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Landscape@2x~ipad.png /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape@2x~ipad.png36"81C87871-D47C-4AAA-8260-DDE1174FC304-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape~ipad.png LJBryl/Resources/splash/Default-Landscape~ipad.png
+s405207099.685726
+e405207099.742948
+r1
+xCopyPNGFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape~ipad.png
+xLJBryl/Resources/splash/Default-Landscape~ipad.png
+o
+oWhile reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Landscape~ipad.png pngcrush caught libpng error:
+o   Not a PNG file..
+o
+oCould not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile build/device/L&J.app/Default-Landscape~ipad.png LJBryl/Resources/splash/Default-Landscape~ipad.png110"CopyPNGFile build/device/L&J.app/Default-Landscape~ipad.png LJBryl/Resources/splash/Default-Landscape~ipad.pngbaa3af3bf826b841^3942be3bf826b841^-491"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Landscape~ipad.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape~ipad.pngCommand /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure3(21%IDEActivityLogMessage2@157"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Landscape~ipad.png pngcrush caught libpng error:-405207099#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@131"Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape~ipad.png-405207099#18446744073709551615#0#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@178"Command /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure-405207099#18446744073709551615#0#-2#--17"CopyPNGFile Error--0#0#1#-19%DVTDocumentLocation4@129"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Landscape~ipad.png0000000000000000^904"CopyPNGFile build/device/L&J.app/Default-Landscape~ipad.png LJBryl/Resources/splash/Default-Landscape~ipad.png    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Landscape~ipad.png /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Landscape~ipad.png36"5FE91CC0-E77E-4C20-935F-D9F1978DE71C-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait@2x~ipad.png LJBryl/Resources/splash/Default-Portrait@2x~ipad.png
+s405207099.686262
+e405207099.745921
+r1
+xCopyPNGFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait@2x~ipad.png
+xLJBryl/Resources/splash/Default-Portrait@2x~ipad.png
+o
+oWhile reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Portrait@2x~ipad.png pngcrush caught libpng error:
+o   Not a PNG file..
+o
+oCould not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"CopyPNGFile build/device/L&J.app/Default-Portrait@2x~ipad.png LJBryl/Resources/splash/Default-Portrait@2x~ipad.png114"CopyPNGFile build/device/L&J.app/Default-Portrait@2x~ipad.png LJBryl/Resources/splash/Default-Portrait@2x~ipad.pngc2c0af3bf826b841^c007bf3bf826b841^-495"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Portrait@2x~ipad.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait@2x~ipad.pngCommand /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure3(21%IDEActivityLogMessage2@159"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Portrait@2x~ipad.png pngcrush caught libpng error:-405207099#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@133"Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait@2x~ipad.png-405207099#18446744073709551615#0#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@178"Command /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure-405207099#18446744073709551615#0#-2#--17"CopyPNGFile Error--0#0#1#-19%DVTDocumentLocation4@131"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Portrait@2x~ipad.png0000000000000000^912"CopyPNGFile build/device/L&J.app/Default-Portrait@2x~ipad.png LJBryl/Resources/splash/Default-Portrait@2x~ipad.png    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Portrait@2x~ipad.png /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait@2x~ipad.png36"43BE1E21-2421-4454-9FC4-4F39D9E3237B-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait~ipad.png LJBryl/Resources/splash/Default-Portrait~ipad.png
+s405207099.735346
+e405207099.784229
+r1
+xCopyPNGFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait~ipad.png
+xLJBryl/Resources/splash/Default-Portrait~ipad.png
+o
+oWhile reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Portrait~ipad.png pngcrush caught libpng error:
+o   Not a PNG file..
+o
+oCould not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile build/device/L&J.app/Default-Portrait~ipad.png LJBryl/Resources/splash/Default-Portrait~ipad.png108"CopyPNGFile build/device/L&J.app/Default-Portrait~ipad.png LJBryl/Resources/splash/Default-Portrait~ipad.pngaa60bc3bf826b841^5b28c93bf826b841^-489"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Portrait~ipad.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait~ipad.pngCommand /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure3(21%IDEActivityLogMessage2@156"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Portrait~ipad.png pngcrush caught libpng error:-405207099#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@130"Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait~ipad.png-405207099#18446744073709551615#0#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@178"Command /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure-405207099#18446744073709551615#0#-2#--17"CopyPNGFile Error--0#0#1#-19%DVTDocumentLocation4@128"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Portrait~ipad.png0000000000000000^900"CopyPNGFile build/device/L&J.app/Default-Portrait~ipad.png LJBryl/Resources/splash/Default-Portrait~ipad.png    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default-Portrait~ipad.png /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default-Portrait~ipad.png36"5F6DA3D5-3539-402E-A4CB-8140ACDF5D9A-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default@2x~iphone.png LJBryl/Resources/splash/Default@2x~iphone.png
+s405207099.746443
+e405207099.805037
+r1
+xCopyPNGFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default@2x~iphone.png
+xLJBryl/Resources/splash/Default@2x~iphone.png
+o
+oWhile reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default@2x~iphone.png pngcrush caught libpng error:
+o   Not a PNG file..
+o
+oCould not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/device/L&J.app/Default@2x~iphone.png LJBryl/Resources/splash/Default@2x~iphone.png100"CopyPNGFile build/device/L&J.app/Default@2x~iphone.png LJBryl/Resources/splash/Default@2x~iphone.png6537bf3bf826b841^492fce3bf826b841^-481"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default@2x~iphone.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default@2x~iphone.pngCommand /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure3(21%IDEActivityLogMessage2@152"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default@2x~iphone.png pngcrush caught libpng error:-405207099#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@126"Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default@2x~iphone.png-405207099#18446744073709551615#0#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@178"Command /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure-405207099#18446744073709551615#0#-2#--17"CopyPNGFile Error--0#0#1#-19%DVTDocumentLocation4@124"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default@2x~iphone.png0000000000000000^884"CopyPNGFile build/device/L&J.app/Default@2x~iphone.png LJBryl/Resources/splash/Default@2x~iphone.png    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default@2x~iphone.png /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default@2x~iphone.png36"44ADC39C-0510-4EBB-8AF5-FF4FAF6F902F-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default~iphone.png LJBryl/Resources/splash/Default~iphone.png
+s405207099.746447
+e405207099.798921
+r1
+xCopyPNGFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default~iphone.png
+xLJBryl/Resources/splash/Default~iphone.png
+o
+oWhile reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default~iphone.png pngcrush caught libpng error:
+o   Not a PNG file..
+o
+oCould not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/device/L&J.app/Default~iphone.png LJBryl/Resources/splash/Default~iphone.png94"CopyPNGFile build/device/L&J.app/Default~iphone.png LJBryl/Resources/splash/Default~iphone.pngbe2ebf3bf826b841^bcb1cc3bf826b841^-475"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default~iphone.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default~iphone.pngCommand /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure3(21%IDEActivityLogMessage2@149"While reading /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default~iphone.png pngcrush caught libpng error:-405207099#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@123"Could not find file: /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default~iphone.png-405207099#18446744073709551615#0#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@178"Command /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure-405207099#18446744073709551615#0#-2#--17"CopyPNGFile Error--0#0#1#-19%DVTDocumentLocation4@121"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default~iphone.png0000000000000000^872"CopyPNGFile build/device/L&J.app/Default~iphone.png LJBryl/Resources/splash/Default~iphone.png    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/splash/Default~iphone.png /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Default~iphone.png36"F2C93C0B-835B-4BF8-ADEF-284D8D0B6DFD-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon-72.png LJBryl/Resources/icons/icon-72.png
+s405207099.564781
+e405207099.678022
+r1
+xCopyPNGFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon-72.png
+xLJBryl/Resources/icons/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"CopyPNGFile build/device/L&J.app/icon-72.png LJBryl/Resources/icons/icon-72.png79"CopyPNGFile build/device/L&J.app/icon-72.png LJBryl/Resources/icons/icon-72.png57b5903bf826b841^73bdad3bf826b841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/icons/icon-72.png0000000000000000^842"CopyPNGFile build/device/L&J.app/icon-72.png LJBryl/Resources/icons/icon-72.png    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/icons/icon-72.png /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon-72.png36"F5EA8E5D-88A7-4560-A20C-30C4D6E5EBA8-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon-72@2x.png LJBryl/Resources/icons/icon-72@2x.png
+s405207099.800321
+e405207099.888455
+r1
+xCopyPNGFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon-72@2x.png
+xLJBryl/Resources/icons/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"CopyPNGFile build/device/L&J.app/icon-72@2x.png LJBryl/Resources/icons/icon-72@2x.png85"CopyPNGFile build/device/L&J.app/icon-72@2x.png LJBryl/Resources/icons/icon-72@2x.png33fbcc3bf826b841^8272e33bf826b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/icons/icon-72@2x.png0000000000000000^854"CopyPNGFile build/device/L&J.app/icon-72@2x.png LJBryl/Resources/icons/icon-72@2x.png    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/icons/icon-72@2x.png /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon-72@2x.png36"E69EF80E-87B2-4E2A-8CE0-09CEC9CF772A-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon.png LJBryl/Resources/icons/icon.png
+s405207099.564825
+e405207099.677443
+r1
+xCopyPNGFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon.png
+xLJBryl/Resources/icons/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"CopyPNGFile build/device/L&J.app/icon.png LJBryl/Resources/icons/icon.png73"CopyPNGFile build/device/L&J.app/icon.png LJBryl/Resources/icons/icon.pnge9b6903bf826b841^81b2ad3bf826b841^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/icons/icon.png0000000000000000^830"CopyPNGFile build/device/L&J.app/icon.png LJBryl/Resources/icons/icon.png    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/icons/icon.png /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon.png36"9424503D-AE58-4F8D-A6C1-AAF1C1A73D0E-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyPNGFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon@2x.png LJBryl/Resources/icons/icon@2x.png
+s405207099.565315
+e405207099.679497
+r1
+xCopyPNGFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon@2x.png
+xLJBryl/Resources/icons/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"CopyPNGFile build/device/L&J.app/icon@2x.png LJBryl/Resources/icons/icon@2x.png79"CopyPNGFile build/device/L&J.app/icon@2x.png LJBryl/Resources/icons/icon@2x.png36cc903bf826b841^3be5ad3bf826b841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/icons/icon@2x.png0000000000000000^842"CopyPNGFile build/device/L&J.app/icon@2x.png LJBryl/Resources/icons/icon@2x.png    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/icons/icon@2x.png /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon@2x.png36"C0178A6B-324D-4922-BD84-66D8FB88F2F7-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyStringsFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/de.lproj/Localizable.strings LJBryl/Resources/de.lproj/Localizable.strings
+s405207099.679842
+e405207099.683981
+r1
+xCopyStringsFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/de.lproj/Localizable.strings
+xLJBryl/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy LJBryl/Resources/de.lproj/Localizable.strings111"CopyStringsFile build/device/L&J.app/de.lproj/Localizable.strings LJBryl/Resources/de.lproj/Localizable.stringscb2cae3bf826b841^6119af3bf826b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/de.lproj/Localizable.strings0000000000000000^801"CopyStringsFile build/device/L&J.app/de.lproj/Localizable.strings LJBryl/Resources/de.lproj/Localizable.strings    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/de.lproj -- LJBryl/Resources/de.lproj/Localizable.strings36"77A4299D-E844-4296-B62C-1082FF609E46-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyStringsFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/en.lproj/Localizable.strings LJBryl/Resources/en.lproj/Localizable.strings
+s405207099.570491
+e405207099.575620
+r1
+xCopyStringsFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/en.lproj/Localizable.strings
+xLJBryl/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy LJBryl/Resources/en.lproj/Localizable.strings111"CopyStringsFile build/device/L&J.app/en.lproj/Localizable.strings LJBryl/Resources/en.lproj/Localizable.strings1b2a923bf826b841^397f933bf826b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/en.lproj/Localizable.strings0000000000000000^801"CopyStringsFile build/device/L&J.app/en.lproj/Localizable.strings LJBryl/Resources/en.lproj/Localizable.strings    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/en.lproj -- LJBryl/Resources/en.lproj/Localizable.strings36"A3ED0701-0B63-473B-86E0-452B19A20C48-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyStringsFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/es.lproj/Localizable.strings LJBryl/Resources/es.lproj/Localizable.strings
+s405207099.577103
+e405207099.582662
+r1
+xCopyStringsFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/es.lproj/Localizable.strings
+xLJBryl/Resources/es.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy LJBryl/Resources/es.lproj/Localizable.strings111"CopyStringsFile build/device/L&J.app/es.lproj/Localizable.strings LJBryl/Resources/es.lproj/Localizable.strings5ed7933bf826b841^ad34953bf826b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/es.lproj/Localizable.strings0000000000000000^801"CopyStringsFile build/device/L&J.app/es.lproj/Localizable.strings LJBryl/Resources/es.lproj/Localizable.strings    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/es.lproj -- LJBryl/Resources/es.lproj/Localizable.strings36"323C1F69-DE4F-4C35-9BFE-D3FA6C24F126-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCopyStringsFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/se.lproj/Localizable.strings LJBryl/Resources/se.lproj/Localizable.strings
+s405207099.680029
+e405207099.684761
+r1
+xCopyStringsFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/se.lproj/Localizable.strings
+xLJBryl/Resources/se.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy LJBryl/Resources/se.lproj/Localizable.strings111"CopyStringsFile build/device/L&J.app/se.lproj/Localizable.strings LJBryl/Resources/se.lproj/Localizable.strings3e3dae3bf826b841^815faf3bf826b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/Resources/se.lproj/Localizable.strings0000000000000000^801"CopyStringsFile build/device/L&J.app/se.lproj/Localizable.strings LJBryl/Resources/se.lproj/Localizable.strings    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/se.lproj -- LJBryl/Resources/se.lproj/Localizable.strings36"A939D6F3-8DB2-4376-B31C-57E2B5F7D25E-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/L&J.app/ResourceRules.plist
+s405207098.813508
+e405207098.818442
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+xbuild/device/L&J.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/device/L&J.app/ResourceRules.plist173"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/L&J.app/ResourceRules.plist925ed03af826b841^b587d13af826b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/ResourceRules.plist003848ccdcffdf42^949"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/L&J.app/ResourceRules.plist    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app36"B593C712-2AC1-4C15-AC97-F33F3A1622E1-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CCpResource LJBryl/config.xml build/device/L&J.app/config.xml
+s405207099.564825
+e405207099.568634
+r1
+xCpResource
+xLJBryl/config.xml
+xbuild/device/L&J.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/device/L&J.app/config.xml60"CpResource LJBryl/config.xml build/device/L&J.app/config.xml74b6903bf826b841^3292913bf826b841^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/config.xml003848ccdcffdf42^795"CpResource LJBryl/config.xml build/device/L&J.app/config.xml    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/config.xml /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app36"893FB676-2AA4-4294-8630-031D9EE9C5EA-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CGenerateDSYMFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app.dSYM /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/L&J
+s405207101.512210
+e405207101.592083
+r1
+xGenerateDSYMFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app.dSYM
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/L&J
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Generate /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app.dSYM67"GenerateDSYMFile build/device/L&J.app.dSYM build/device/L&J.app/L&J213b833df826b841^ae9e973df826b841^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app.dSYM003848ccdcffdf42^805"GenerateDSYMFile build/device/L&J.app.dSYM build/device/L&J.app/L&J    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/L&J -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app.dSYM36"C5BBA744-4C34-41C0-A3FA-8B9D2BE82A51-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CLd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/L&J normal armv7
+s405207101.392376
+e405207101.503144
+r1
+xLd
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/L&J
+xnormal
+xarmv7
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/L&J.LinkFileList
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/crt1.3.1.o
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/main.o
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/AppDelegate.o
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/MainViewController.o
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFile.o
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVDevice.o
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVCamera.o
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVJpegHeaderWriter.o
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVLogger.o
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVFileTransfer.o
+d/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/CDVInAppBrowser.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/L&J40"Ld build/device/L&J.app/L&J normal armv71093643df826b841^1cce803df826b841^---0#0#1#--1871"Ld build/device/L&J.app/L&J normal armv7    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -F/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device -filelist /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/L&J.LinkFileList -dead_strip -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.0 -framework AssetsLibrary /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -weak_framework ImageIO -Xlinker -dependency_info -Xlinker /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/L&J_dependency_info.dat -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/L&J36"96352C8D-2AA6-40A5-A5F8-D36F2C182ED3-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CPhaseScriptExecution Copy\ www\ directory /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Script-304B58A110DAC018002A0835.sh
+s405207098.827561
+e405207099.556536
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.694s
+ouser	0m0.261s
+osys	0m0.372s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'123"PhaseScriptExecution Copy\ www\ directory build/LJBryl.build/Debug-iphoneos/LJBryl.build/Script-304B58A110DAC018002A0835.sh68e7d43af826b841^357d8e3bf826b841^-42"real	0m0.694suser	0m0.261ssys	0m0.372s3(21%IDEActivityLogMessage2@14"real	0m0.694s-405207099#1#14#-0#-----2@14"user	0m0.261s-405207099#15#14#-0#-----2@13"sys	0m0.372s-405207099#29#13#-0#-----0#0#1#--22681"PhaseScriptExecution Copy\ www\ directory build/LJBryl.build/Debug-iphoneos/LJBryl.build/Script-304B58A110DAC018002A0835.sh    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER jakobthomsen    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD "armv7 armv7s"    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_64_BIT arm64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "armv7 armv7s arm64"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build    setenv BUILD_ROOT /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device    setenv CACHE_ROOT /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode    setenv CCHROOT /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_BOOL_CONVERSION YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app"    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device    setenv CONFIGURATION_TEMP_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH "L&J.app"    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources    setenv DERIVED_FILE_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH "L&J.app/English.lproj/Documentation"    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/LJBryl.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME "L&J.app.dSYM"    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH "L&J.app/Executables"    setenv EXECUTABLE_FOLDER_PATH "L&J.app"    setenv EXECUTABLE_NAME "L&J"    setenv EXECUTABLE_PATH "L&J.app/L&J"    setenv FILE_LIST /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH "L&J.app/Frameworks"    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME "L&J.app"    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER LJBryl/LJBryl-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNDECLARED_SELECTOR YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_FUNCTION YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/include \"/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/usr/local/lib/include\" \"/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/UninstalledProducts/include\" \"/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE LJBryl/LJBryl-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH "L&J.app/Info.plist"    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH "L&J.app/English.lproj/InfoPlist.strings"    setenv INSTALL_DIR /tmp/LJBryl.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER jakobthomsen    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/LJBryl.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH "L&J.app/Java"    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE "/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/L&J_dependency_info.dat"    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J-LinkMap-normal-armv7.txt"    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 "/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal/armv7/L&J.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH "L&J.app/English.lproj"    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12F45    setenv MAC_OS_X_VERSION_ACTUAL 1085    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0805    setenv MODULE_CACHE_DIR /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/ModuleCache    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects    setenv OBJECT_FILE_DIR_normal /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Objects-normal    setenv OBJROOT /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH "L&J.app/pbdevelopment.plist"    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/PkgInfo    setenv PKGINFO_PATH "L&J.app/PkgInfo"    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH arm64    setenv PLATFORM_PRODUCT_BUILD_VERSION 11B508    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH "L&J.app/PlugIns"    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH "L&J.app/PrivateHeaders"    setenv PRODUCT_NAME "L&J"    setenv PRODUCT_SETTINGS_PATH /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/LJBryl-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT LJBryl    setenv PROJECT_DERIVED_FILE_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/DerivedSources    setenv PROJECT_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PROJECT_FILE_PATH /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl.xcodeproj    setenv PROJECT_NAME LJBryl    setenv PROJECT_TEMP_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build    setenv PROJECT_TEMP_ROOT /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH "L&J.app/Headers"    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH "L&J.app/Scripts"    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_NAME iphoneos7.0    setenv SDK_PRODUCT_BUILD_VERSION 11B508    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH "L&J.app/SharedFrameworks"    setenv SHARED_PRECOMPS_DIR /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH "L&J.app/SharedSupport"    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv SRCROOT /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME LJBryl    setenv TARGET_BUILD_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device    setenv TARGET_NAME LJBryl    setenv TARGET_TEMP_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build    setenv TEMP_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build    setenv TEMP_FILES_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build    setenv TEMP_FILE_DIR /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build    setenv TEMP_ROOT /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH "L&J.app"    setenv UNSTRIPPED_PRODUCT NO    setenv USER jakobthomsen    setenv USER_APPS_DIR /Volumes/Data/jakobthomsen/Applications    setenv USER_LIBRARY_DIR /Volumes/Data/jakobthomsen/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv7 armv7s"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH "L&J.app/version.plist"    setenv VERSION_INFO_BUILDER jakobthomsen    setenv VERSION_INFO_FILE "L&J_vers.c"    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:L&J  PROJECT:LJBryl-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME "L&J.app"    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A2053    setenv XCODE_VERSION_ACTUAL 0501    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH "L&J.app/XPCServices"    setenv YACC yacc    setenv arch armv7    setenv variant normal    /bin/sh -c /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/Script-304B58A110DAC018002A0835.sh36"CA4308E1-5DF6-45D8-B7AC-69BCC3092D88-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CProcessInfoPlistFile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Info.plist /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/LJBryl-Info.plist
+s405207098.800767
+e405207098.804742
+r1
+xProcessInfoPlistFile
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Info.plist
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/LJBryl-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Process /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/LJBryl-Info.plist77"ProcessInfoPlistFile build/device/L&J.app/Info.plist LJBryl/LJBryl-Info.plist8a1dcd3af826b841^5724ce3af826b841^---0#0#1#-19%DVTDocumentLocation2@103"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/LJBryl-Info.plist0000000000000000^1032"ProcessInfoPlistFile build/device/L&J.app/Info.plist LJBryl/LJBryl-Info.plist    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    builtin-infoPlistUtility /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/LJBryl/LJBryl-Info.plist -genpkginfo /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/ResourceRules.plist -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Info.plist36"ED008D5E-A031-437D-8048-BEA0991D4E7E-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CProcessPCH /var/folders/gr/5wtr78wj44g03zs110rjc8yr0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/LJBryl-Prefix-gpiluntwqrmljibbaxrxvgjptsmp/LJBryl-Prefix.pch.pch LJBryl/LJBryl-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J.xcent
+s405207101.629765
+e405207101.634054
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection201"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J.xcent201"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J.xcent9351a13df826b841^e351a23df826b841^---0#0#1#-19%DVTDocumentLocation2@135"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J.xcent003848ccdcffdf42^965"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J.xcent    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J.xcent36"EB32D1A8-D8C9-4AA5-86B7-ECD8FBA53CBD-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CProcessProductPackaging /Volumes/Data/jakobthomsen/Library/MobileDevice/Provisioning\ Profiles/94951BA5-7F06-4FB6-BA85-DFE5CEC8ABCE.mobileprovision /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/embedded.mobileprovision
+s405207101.600633
+e405207101.603404
+r1
+xProcessProductPackaging
+x/Volumes/Data/jakobthomsen/Library/MobileDevice/Provisioning Profiles/94951BA5-7F06-4FB6-BA85-DFE5CEC8ABCE.mobileprovision
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection193"ProcessProductPackaging /Volumes/Data/jakobthomsen/Library/MobileDevice/Provisioning\ Profiles/94951BA5-7F06-4FB6-BA85-DFE5CEC8ABCE.mobileprovision build/device/L&J.app/embedded.mobileprovision193"ProcessProductPackaging /Volumes/Data/jakobthomsen/Library/MobileDevice/Provisioning\ Profiles/94951BA5-7F06-4FB6-BA85-DFE5CEC8ABCE.mobileprovision build/device/L&J.app/embedded.mobileprovisioncee2993df826b841^e2789a3df826b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/embedded.mobileprovision003848ccdcffdf42^923"ProcessProductPackaging /Volumes/Data/jakobthomsen/Library/MobileDevice/Provisioning\ Profiles/94951BA5-7F06-4FB6-BA85-DFE5CEC8ABCE.mobileprovision build/device/L&J.app/embedded.mobileprovision    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    builtin-productPackagingUtility /Volumes/Data/jakobthomsen/Library/MobileDevice/Provisioning\ Profiles/94951BA5-7F06-4FB6-BA85-DFE5CEC8ABCE.mobileprovision -o /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/embedded.mobileprovision36"E3F5B143-73D2-434B-883B-18587164F9AF-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
+CTouch /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app
+s405207101.612871
+e405207101.621489
+r1
+xTouch
+x/Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Touch /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app26"Touch build/device/L&J.app8d099d3df826b841^091a9f3df826b841^---0#0#1#--590"Touch build/device/L&J.app    cd /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Volumes/Data/jakobthomsen/.rbenv/shims:/Volumes/Data/jakobthomsen/Documents/bin:/usr/bin:/usr/local/bin:/opt/local/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/Volumes/Data/jakobthomsen/progs/dart-sdk/bin:/opt/local/lib/mysql55/bin"    /usr/bin/touch -c /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app36"A830BB29-09D6-46E6-9742-559E682A5E3A-
+bAC6B5513-F4FE-43AA-BD9B-83E8C1C6627A
+
