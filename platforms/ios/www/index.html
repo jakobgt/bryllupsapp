@@ -6,6 +6,7 @@
     <meta charset='utf-8'>
     <meta content='telephone=no' name='format-detection'>
     <meta content='user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi' name='viewport'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,500italic,700italic' rel='stylesheet' type='text/css'>
     <link href='css/jquery.mobile-1.2.1.css' rel='stylesheet' type='text/css'>
     <link href='css/jquery-mobile.css' rel='stylesheet' type='text/css'>
     <link href='css/photoswipe.css' rel='stylesheet' type='text/css'>
@@ -13,7 +14,47 @@
   </head>
   <body>
     <div data-role='page' id='index'>
-      <div data-role='content'></div>
+      <div data-role='content'>
+        <div class='right-corner'>
+          <img src='css/ramme-venstreside.png'>
+        </div>
+        <div class='left-corner'>
+          <img src='css/ramme-hojreside.png'>
+        </div>
+        <div class='monogram-div'>
+          <div class='monogram'>
+            <img src='css/monogram.png'>
+          </div>
+        </div>
+        <p>
+          Velkommen til vores bryllupsapp!
+        </p>
+        <p>
+          Den indeholder lidt praktisk information omkring vores bryllup
+          d. 23. november 2013 og den super seje billedefunktion, hvor du
+          direkte via denne APP, kan se og uploade billeder fra brylluppet.
+        </p>
+        <p>
+          På vores
+          <a class='external_link' ref='external' rel='http://www.lineogjakob.dk'>
+            bryllupsside
+          </a>
+          kan du se information omkring brylluppet og flere billedfunktioner (kommentarer).
+        </p>
+        <div class='clear'></div>
+        <p>
+          <em>
+            Vi ses d. 23. november
+          </em>
+        </p>
+        <div class='couple-background'>
+          <em>
+            Vi glæder os
+            <br>
+            Line & Jakob
+          </em>
+        </div>
+      </div>
       <div data-id='footer_id' data-position='fixed' data-role='footer' data-theme='c'>
         <div data-role='navbar'>
           <ul class='navigation'>
@@ -55,6 +96,13 @@
         <ul class='status_bar'></ul>
       </div>
       <div data-role='content'>
+        <p>
+          For at kunne se og uploade billeder skal du indtaste din
+          tilmeldingskode, som du kan gøre på denne side
+          <a href='#act_code_form'>
+            Indtast tilmeldingskode
+          </a>
+        </p>
         <ul class='gallery' id='Gallery'></ul>
         <div id='picture_loading'>
           <center>
@@ -94,7 +142,14 @@
       </div>
     </div>
     <div data-role='page' id='info'>
-      <div data-role='content'></div>
+      <div data-role='content'>
+        <div class='right-corner'>
+          <img src='css/ramme-venstreside.png'>
+        </div>
+        <div class='left-corner'>
+          <img src='css/ramme-hojreside.png'>
+        </div>
+      </div>
       <div data-id='footer_id' data-position='fixed' data-role='footer' data-theme='c'>
         <div data-role='navbar'>
           <ul class='navigation'>
@@ -119,9 +174,16 @@
     </div>
     <div data-role='page' id='act_code_form'>
       <div data-role='content'>
-        <h3>
+        <div class='right-corner'>
+          <img src='css/ramme-venstreside.png'>
+        </div>
+        <div class='left-corner'>
+          <img src='css/ramme-hojreside.png'>
+        </div>
+        <div class='clear'></div>
+        <h2>
           Indtast venligst tilmeldingskode
-        </h3>
+        </h2>
         <p>
           Inden du kan se og uploade billeder, bedes du indtaste din
           tilmeldingskode nedenunder. Har du ikke din tilmeldingskode ved dig,
@@ -142,13 +204,16 @@
           </label>
           <input id='send_activation_code_phone_number' name='send_activation_code[phone_number]' placeholder='Telefonnummer' type='tel'>
           <button id='send_act_code' value='Send tilmeldingskode'></button>
-          <div class='number_not_found'>
+          <div class='number_not_found blue'>
             Vi kunne desværre ikke genkende dit nummer. Hvis du mener det er
-            rigtigt, kand du
-            <a href='#type_name_and_phonenumber'>
-              indtaste dine oplysninger
+            rigtigt, kan du på vores
+            <a class='external_link' href='#' ref='external' rel='http://www.lineogjakob.dk/attendance'>
+              bryllupshjemmeside
             </a>
-            og så vil vi få dig ind i systemet.
+            indtaste dine oplysninger og så vil vi få dig ind i systemet.
+          </div>
+          <div class='number_found_sms_sent green'>
+            Tilmeldingskoden er nu afsendt. Den kommer i løbet af et par minutter.
           </div>
         </div>
       </div>
@@ -192,6 +257,7 @@
     <script src='js/jquery.mobile-1.2.1.min.js' type='text/javascript'></script>
     <script src='js/code.photoswipe.jquery-3.0.5.min.js' type='text/javascript'></script>
     <script src='js/act_code.js' type='text/javascript'></script>
+    <script src='js/pictures.js' type='text/javascript'></script>
     <script src='js/index.js' type='text/javascript'></script>
     <script src='phonegap.js' type='text/javascript'></script>
     <script>

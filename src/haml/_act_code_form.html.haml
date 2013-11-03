@@ -1,3 +1,5 @@
+= render 'corners'
+.clear
 %h2
   Indtast venligst tilmeldingskode
 
@@ -24,10 +26,11 @@
   %button{value: 'Send tilmeldingskode', id: 'send_act_code'}
   .number_not_found.blue
     Vi kunne desværre ikke genkende dit nummer. Hvis du mener det er
-    rigtigt, kand du
-    %a{href: '#type_name_and_phonenumber'}
-      indtaste dine oplysninger
-    og så vil vi få dig ind i systemet.
+    rigtigt, kan du på vores
+    %a.external_link{href: '#', rel: 'http://www.lineogjakob.dk/attendance',
+                     ref: 'external'}
+      bryllupshjemmeside
+    indtaste dine oplysninger og så vil vi få dig ind i systemet.
   .number_found_sms_sent.green
     Tilmeldingskoden er nu afsendt. Den kommer i løbet af et par minutter.
     

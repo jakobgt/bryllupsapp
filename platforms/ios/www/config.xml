@@ -57,5 +57,8 @@
     <feature name="FileTransfer">
       <param name="ios-package" value="CDVFileTransfer" />
     </feature>
+    <feature name="InAppBrowser">
+      <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
     <content src="index.html" />
 </widget>

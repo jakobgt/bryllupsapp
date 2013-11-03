@@ -1,7 +1,6 @@
 $ ->
   window.pictures_data = []
   window.current_start_index = 0
-  # TODO(jakob): Use localstorage as a first measure?
   createGallery = () ->
     console.log("Setting up gallery")
     window.gallery = $("#Gallery a").photoSwipe({
@@ -38,22 +37,18 @@ $ ->
         $('#picture_loading').hide()        
         $('#picture_end').show()
 
-  # This function checks that the person has entered an attendance
-  # number.
-  checkLoginInfo = (success) ->
-    act_code = window.localStorage.getItem('act_code')
-    if act_code
-      success(act_code)
-    else
-      window.showActCodeForm(success)
+  window.get_act_code = () ->
+    window.localStorage.getItem('act_code')
     
   window.deviceReady = () ->
     window.load_pictures_fun = (act_code) ->
       console.log "Loading pictures."
       url = 'http://www.lineogjakob.dk/images.json?act_code=' + act_code
       $.get url, insert_pictures
-      
-    checkLoginInfo window.load_pictures_fun
+    # If act code is available, then we start downloading
+    act_code = window.get_act_code()
+    if act_code
+      window.load_pictures_fun act_code
 
   prepend_picture = (picture) ->
     li_elm = generate_html_elm picture
@@ -177,4 +172,14 @@ $ ->
       $(window).scroll(infiniteScrolling)
     
 document.addEventListener('deviceready', window.deviceReady, false);
+
+$ ->
+  loadURL = (url) ->
+    navigator.app.loadUrl(url, { openExternal:true });
+    return false;
+
+  $('.external_link').live 'click', ->
+    url = $(this).attr("rel")
+    window.open(url, '_blank');
+    return false
 

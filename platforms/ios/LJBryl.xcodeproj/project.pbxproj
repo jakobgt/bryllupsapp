@@ -38,6 +38,7 @@
 		793AECF618132DF2009B86FB /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 793AECF518132DF2009B86FB /* CDVFile.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
+		CE825C8916304127931DD213 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F85334D2DD546C39B8CF801 /* CDVInAppBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,8 @@
 		F5F29E304B1D415BB8DC7BCF /* CDVFileTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVFileTransfer.h; path = "org.apache.cordova.file-transfer/CDVFileTransfer.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = LJBryl/config.xml; sourceTree = "<group>"; };
 		FB47BBDD5B154B9DA9BFDFB9 /* CDVJpegHeaderWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVJpegHeaderWriter.m; path = org.apache.cordova.camera/CDVJpegHeaderWriter.m; sourceTree = "<group>"; };
+		9F85334D2DD546C39B8CF801 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		195054AA01344C158723AE88 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +239,8 @@
 				BA8A875E4CFD4E0FB5487B4B /* CDVLogger.h */,
 				29C5995BED584D6A8A81E3DC /* CDVFileTransfer.m */,
 				F5F29E304B1D415BB8DC7BCF /* CDVFileTransfer.h */,
+				9F85334D2DD546C39B8CF801 /* CDVInAppBrowser.m */,
+				195054AA01344C158723AE88 /* CDVInAppBrowser.h */,
 			);
 			name = Plugins;
 			path = LJBryl/Plugins;
@@ -409,6 +414,7 @@
 				4577200DDDF94847A5228CE7 /* CDVJpegHeaderWriter.m in Sources */,
 				2CC43FFE4065429EA18FBCA6 /* CDVLogger.m in Sources */,
 				577343A311824416BC7C6E49 /* CDVFileTransfer.m in Sources */,
+				CE825C8916304127931DD213 /* CDVInAppBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

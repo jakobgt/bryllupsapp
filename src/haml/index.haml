@@ -28,16 +28,12 @@
 
     %div{:"data-role" => 'page', id: 'info'}      
       %div{:'data-role' => 'content'}
+        = render 'corners'        
       = navigation "Praktisk Info" 
 
     %div{:"data-role" => 'page', id: 'act_code_form'}
       %div{:'data-role' => 'content'}
         = render 'act_code_form'
-      = navigation "Billeder" 
-
-    %div{:"data-role" => 'page', id: 'type_name_and_phonenumber'}
-      %div{:'data-role' => 'content'}
-        = render 'type_name_and_phonenumber'
       = navigation "Billeder" 
 
     = render :javascript

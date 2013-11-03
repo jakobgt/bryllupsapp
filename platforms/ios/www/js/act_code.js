@@ -2,8 +2,10 @@
 (function() {
   $(function() {
     var act_code_elm, current_request, removeGreen, success_callback, use_code_button, use_code_ui_button, validateActCode;
-    success_callback = function() {
-      return 2 + 2;
+    success_callback = function(act_code) {
+      if (window.load_pictures_fun) {
+        return window.load_pictures_fun(act_code);
+      }
     };
     window.showActCodeForm = function(success) {
       $.mobile.changePage($("#act_code_form"));
@@ -45,13 +47,17 @@
       });
     });
     return $(document).on('pageinit', '#act_code_form', function() {
-      var notRecognizedPhoneNr, phonenumber_input, recognizedPhoneNumber;
+      var notRecognizedPhoneNr, number_found_msg, number_not_found_msg, phonenumber_input, recognizedPhoneNumber;
       phonenumber_input = $('#send_activation_code_phone_number');
+      number_not_found_msg = $('.number_not_found');
+      number_found_msg = $('.number_found_sms_sent');
       recognizedPhoneNumber = function(data, textStatus, jgXHR) {
-        return phonenumber_input.addClass('green');
+        phonenumber_input.addClass('green');
+        return number_found_msg.show();
       };
       notRecognizedPhoneNr = function() {
         phonenumber_input.addClass('yellow');
+        number_not_found_msg.show();
         return 2 + 2;
       };
       current_request = null;
@@ -61,6 +67,8 @@
       return $('#send_act_code').click(function() {
         var phonenumber;
         phonenumber_input.removeClass('green yellow');
+        number_not_found_msg.hide();
+        number_found_msg.hide();
         phonenumber = phonenumber_input.val();
         if (current_request) {
           current_request.abort();
