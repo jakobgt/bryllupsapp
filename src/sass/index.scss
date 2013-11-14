@@ -229,3 +229,9 @@ a.ui-link {
 .line_and_jakob {
   width: 200px;
 }
+.ui-btn-active {
+/*  */
+background-image: linear-gradient( $blue-color  /* #5393c5{global-active-background-start} */, 
+                                   $blue-color  /* #6facd5 {global-active-background-end}*/);
+
+}

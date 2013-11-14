@@ -113,7 +113,8 @@
         update_pictures = function() {
           return window.update_pictures(act_code);
         };
-        return document.addEventListener("resume", update_pictures, false);
+        document.addEventListener("resume", update_pictures, false);
+        return document.addEventListener("online", update_pictures, false);
       };
       act_code = window.get_act_code();
       if (act_code) {

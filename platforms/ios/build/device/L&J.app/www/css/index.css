@@ -146,7 +146,7 @@ h1 {
 .blue {
   background-color: #7fa0ab; }
 
-a.external_link.ui-link {
+a.ui-link {
   color: #7fa0ab !important; }
 
 .number_not_found {
@@ -196,3 +196,7 @@ a.external_link.ui-link {
 
 .line_and_jakob {
   width: 200px; }
+
+.ui-btn-active {
+  /*  */
+  background-image: linear-gradient(#7fa0ab, #7fa0ab); }
