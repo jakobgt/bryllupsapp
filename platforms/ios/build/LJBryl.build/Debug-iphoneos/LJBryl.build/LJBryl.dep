@@ -1,4 +1,4 @@
-9f4bf3557b1da25193b78f91e5a014fe 51eb6d9658420706b29bb3fa1c0656eb ffffffffffffffffffffffffffffffff 418 /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J.xcent
+9f4bf3557b1da25193b78f91e5a014fe df00b5a296feebb58dd8b443395592e8 ffffffffffffffffffffffffffffffff 418 /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/LJBryl.build/Debug-iphoneos/LJBryl.build/L&J.xcent
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 1564 /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app
 000000005276d8cf0000000000001d70 87e7a416e6a92b67aa9bd379f88117e5 ffffffffffffffffffffffffffffffff 7536 /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/embedded.mobileprovision
 a333ae8741314f7c3d8d09ddf8662f19 3c785dd2687be047ae3a864c1dc63b73 ffffffffffffffffffffffffffffffff 8 /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/PkgInfo
@@ -18,7 +18,7 @@ a333ae8741314f7c3d8d09ddf8662f19 3c785dd2687be047ae3a864c1dc63b73 ffffffffffffff
 000000005276c8ab0000000000001ee2 0d66e4c92742e6080d4352468818c041 ffffffffffffffffffffffffffffffff 7216 /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon@2x.png
 000000005276c8810000000000000e0c fae5b15571860c23fb3c4ae582c0bc4d ffffffffffffffffffffffffffffffff 3532 /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon.png
 000000005276c83d0000000000002b16 47e9e438e8e2fac808d5020894e79a6f ffffffffffffffffffffffffffffffff 10141 /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/icon-72.png
-0000000052852dbb0000000000000af4 6a23d9325a8471a9ed586fc9de401adf ffffffffffffffffffffffffffffffff 2804 /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/config.xml
+000000005285399d0000000000000af4 6a23d9325a8471a9ed586fc9de401adf ffffffffffffffffffffffffffffffff 2804 /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/config.xml
 0000000052570d6a0000000000000096 dca316b732c0714693a290fca42ca736 ffffffffffffffffffffffffffffffff 150 /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/ResourceRules.plist
 17d98802e5b35545dd8474fd2b8bc0fc d9ba5f4c4b33949f37943da0d5c81c63 ffffffffffffffffffffffffffffffff 0 /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app.dSYM
 a333ae8741314f7c3d8d09ddf8662f19 3c785dd2687be047ae3a864c1dc63b73 ffffffffffffffffffffffffffffffff 1633 /Volumes/Data/jakobthomsen/workspace/bryllupsapp/platforms/ios/build/device/L&J.app/Info.plist

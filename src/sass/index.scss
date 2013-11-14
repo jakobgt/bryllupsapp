@@ -231,7 +231,13 @@ a.ui-link {
 }
 .ui-btn-active {
 /*  */
+background-image: -webkit-gradient(linear, left top, left bottom, 
+                                   from( $blue-color /*{global-active-background-start}*/), 
+                                   to( $blue-color /*{global-active-background-end}*/)); /* Saf4+, Chrome */
+background-image: -webkit-linear-gradient( $blue-color /*{global-active-background-start}*/, $blue-color /*{global-active-background-end}*/); /* Chrome 10+, Saf5.1+ */
+background-image:    -moz-linear-gradient( $blue-color /*{global-active-background-start}*/, $blue-color /*{global-active-background-end}*/); /* FF3.6 */
+background-image:     -ms-linear-gradient( $blue-color /*{global-active-background-start}*/, $blue-color /*{global-active-background-end}*/); /* IE10 */
+background-image:      -o-linear-gradient( $blue-color /*{global-active-background-start}*/, $blue-color /*{global-active-background-end}*/); /* Opera 11.10+ */
 background-image: linear-gradient( $blue-color  /* #5393c5{global-active-background-start} */, 
                                    $blue-color  /* #6facd5 {global-active-background-end}*/);
-
 }
