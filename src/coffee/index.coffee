@@ -1,16 +1,37 @@
 $ ->
   window.pictures_data = []
+  window.pictures_data_dict = []
   window.current_start_index = 0
+  window.gallery = null
+  is_overlay_shown = () ->
+    return $('.ps-carousel').length > 0
+  is_gallery_set = () ->
+    (typeof window.gallery != "undefined" && window.gallery != null)
   createGallery = () ->
-    console.log("Setting up gallery")
-    window.gallery = $("#Gallery a").photoSwipe({
-      enableKeyboard: false,
-      enableMouseWheel: false
-      })
-    $(window).scroll(infiniteScrolling)
+    # Don't create if overlay shown
+    if is_overlay_shown()
+      console.log "Not create gallery"
+      if is_gallery_set()
+        # If we wanted to create the gallery, but we're in overlay,
+        # then we make a request to delete and create.
+        window.gallery.addEventHandler(window.Code.PhotoSwipe.EventTypes.onHide, (e) ->
+          console.log "Returning from hiding."
+          removeGalleryIfPresent()
+          createGallery()
+          )
+    else
+      console.log("Setting up gallery")
+      window.gallery = $("#Gallery a").photoSwipe({
+        enableKeyboard: false,
+        enableMouseWheel: false
+        })
+      $(window).scroll(infiniteScrolling)
     
   removeGalleryIfPresent = () ->
-    if (typeof window.gallery != "undefined" && window.gallery != null)
+    if is_overlay_shown()
+      # If the overlay is already shown, then we don't remove the gallery.
+      console.log "Gallery overlay shown already."
+    else if is_gallery_set()
       console.log 'Removing gallery'
       window.Code.PhotoSwipe.unsetActivateInstance window.gallery
       window.Code.PhotoSwipe.detatch window.gallery
@@ -20,6 +41,7 @@ $ ->
     # Window.pictures_data is the list of pictures, where the latest
     # is last.
     window.pictures_data = data
+    window.pictures_data_dict = data.toDict 'id'
     window.current_start_index = data.length - 1
     showMorePictures()
 
@@ -37,8 +59,23 @@ $ ->
         $('#picture_loading').hide()        
         $('#picture_end').show()
 
+  Array::toDict = (key) ->
+    @reduce ((dict, obj) -> dict[ obj[key] ] = obj if obj[key]?; return dict), {}
+
+  compare_pictures = (data, textStatus, jqXHR) ->
+    for picture in data
+      if (typeof window.pictures_data_dict[picture.id] is "undefined")
+        prepend_picture picture
+        window.pictures_data.push picture
+        window.pictures_data_dict[picture.id] = picture        
+        
   window.get_act_code = () ->
     window.localStorage.getItem('act_code')
+
+  window.update_pictures = (act_code) ->
+    console.log('resuming')
+    url = 'http://www.lineogjakob.dk/images.json?act_code=' + act_code
+    $.get url, compare_pictures
     
   window.deviceReady = () ->
     console.log "Version is " + window.device.version
@@ -50,6 +87,10 @@ $ ->
       $('.activation_code_msg').hide()
       url = 'http://www.lineogjakob.dk/images.json?act_code=' + act_code
       $.get url, insert_pictures
+      update_pictures = () ->
+        window.update_pictures act_code
+      document.addEventListener("resume", update_pictures , false);
+      document.addEventListener("online", update_pictures , false);      
     # If act code is available, then we start downloading
     act_code = window.get_act_code()
     if act_code
@@ -63,7 +104,7 @@ $ ->
     $(li_elm).clone().hide().appendTo($('#Gallery')).slideDown();
 
   generate_html_elm = (data) ->
-    console.log "Date is: " + data
+    console.log "Prepending is: " + data
     small_thumb_url = "http://www.lineogjakob.dk" + data.small_thumb_url
     medium_thumb_url = "http://www.lineogjakob.dk" + data.medium_thumb_url    
     title = "Taget af " + data.guest.first_name
@@ -82,7 +123,6 @@ $ ->
     li_elm.appendChild(anchor_elm)
     console.log "Returning the picture."
     return li_elm
-    
 
   win = (response) ->
     console.log("Code = " + response.responseCode)
@@ -163,8 +203,10 @@ $ ->
   channel = pusher.subscribe('pictures')
   channel.bind 'new_picture', (data) ->
     removeGalleryIfPresent()
-    prepend_picture $.parseJSON(data.message)
-    window.pictures_data.push data
+    picture = $.parseJSON(data.message)
+    prepend_picture picture
+    window.pictures_data.push picture
+    window.pictures_data_dict[picture.id] = picture
     createGallery()
 
   infiniteScrolling = () ->
